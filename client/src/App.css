@@ -1,0 +1,12 @@
+/* Website pattern */
+
+
+.section__padding {
+  margin: 4rem 6rem;
+}
+
+.flex__center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
