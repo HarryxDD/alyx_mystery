@@ -9,8 +9,8 @@ const News = ({ image, category, title, date }) => {
     <div className='app__new'>
       <div className='app__new-item'>
         <div className='item__title'>
-        <div className='app__new-image'>
-          <img src={image} alt="" />
+          <div className='app__new-image'>
+            <img src={image} alt="" />
           </div>
           <div className='app__new-category'>
             {category}

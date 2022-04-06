@@ -45,7 +45,7 @@ const Navbar = ({ toggleMenu, setToggleMenu }) => {
                     </div>
                     <div className='coin__info mainnet__info'>
                         <BsCoin />
-                        - ALYX
+                        <span>-&nbsp;</span> ALYX
                     </div>
                     
                 </div>

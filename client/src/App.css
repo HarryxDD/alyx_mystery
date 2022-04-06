@@ -2,11 +2,35 @@
 
 
 .section__padding {
-  margin: 4rem 6rem;
+  margin: 3rem 6rem;
+}
+
+.item__padding {
+  margin: 3rem 6rem;
 }
 
 .flex__center {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+
+@media screen and (min-width: 1280px) {
+  .item__padding {
+    margin: 3rem 16rem;
+    margin-bottom: 0;
+  }
+
+  .section__padding {
+    margin: 3rem 16rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .item__padding {
+      margin: 3rem 3rem;
+  }
 }

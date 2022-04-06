@@ -63,7 +63,8 @@
 
 @media screen and (max-width: 1280px) {
     .app__sidebar {
-        position: absolute;
+        position: fixed;
+        height: 100%;
         z-index: 600;
         left: -90px;
         transition: all 0.5s ease;

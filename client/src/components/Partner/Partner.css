@@ -1,0 +1,36 @@
+.text__category {
+    color: #039efa;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.text__title {
+    color: white;
+    font-size: 38px;
+}
+
+.app__partner {
+    background-color: black;
+    font-family: var(--font-base);
+}
+
+.list__title {
+    margin-bottom: 40px;
+}
+
+.list__image {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.list__item {
+    margin: 0 22px 45px 22px;
+    align-items: center;
+}
+
+.list__item img {
+    width: 170px;
+}

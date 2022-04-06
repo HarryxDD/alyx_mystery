@@ -6,8 +6,7 @@
 .app__new-item {
     display: flex;
     flex-direction: column;
-    width: 265px;
-    height: 500px;
+    width: 90%;
 }
 
 .app__new-image {
@@ -15,7 +14,7 @@
 }
 
 .app__new-image img{
-    width: 100%;
+    max-width: 100%;
     border-radius: 15px;
 }
 
@@ -24,6 +23,7 @@
     flex-direction: column;
     flex: 8;
     cursor: pointer;
+    
 }
 
 .app__new-category {
@@ -39,6 +39,7 @@
     font-weight: 600;
     padding: 0.6rem 0;
     line-height: 1.4rem;
+    height: 200px;
 }
 
 .item__info {
@@ -55,6 +56,7 @@
     color: #6c6e71;
     font-size: 15px;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .app__new-social {
@@ -70,4 +72,25 @@
     font-size: 18px;
     margin-right: 14px;
     cursor: pointer;
+}
+
+/* @media screen and (min-width:2000px) {
+    .app__new-item {
+        height: 700px;
+    }
+}    */
+
+@media screen and (min-width:1700px) {
+    
+}
+
+@media screen and (max-width: 680px) {
+    .app__new-item {
+        width: 100%;
+    }
+
+    .app__new-title {
+        height: 45%;
+    }
+    
 }

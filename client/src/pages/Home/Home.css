@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1281px) {
     .app__homepage {
         padding-left: 90px;
     }

@@ -125,5 +125,17 @@
 }
 
 @media screen and (max-width: 650px) {
-    
+    .info__overlay {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .info__button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info__button-claim {
+        margin-bottom: 20px;
+    }
 }

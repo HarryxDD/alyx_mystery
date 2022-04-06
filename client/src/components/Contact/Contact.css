@@ -1,0 +1,75 @@
+.app__contact {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-base);
+    background-color: black;
+}
+
+.app__contact-join {
+    position: relative;
+    color: white;
+}
+
+.join__image {
+    height: 250px;
+}
+
+.join__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.join__desc {
+    position: absolute;
+    width: 35%;
+    top: 25%;
+    right: 8%;
+}
+
+.join__desc h1 {
+    font-size: 25px;
+}
+
+.join__desc p {
+    font-size: 15px;
+    padding: 0.8rem 0;
+    color: white;
+}
+
+.join__btn button{
+    border: none;
+    border-radius: 19px;
+    background-image: linear-gradient(to bottom, rgb(127, 92, 255), blueviolet);
+    color: white;
+    padding: 0.5rem 3.5rem;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.app__contact-info {
+    background-color: #1d232a;
+    height: 350px;
+    color: white;
+    font-size: 120px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__contact-copyright {
+    background-color: var(--color-black);
+    color: rgba(255, 255, 255, 0.747);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 1281px) {
+    .app__contact {
+        padding-left: 90px;
+    }
+}

@@ -237,5 +237,25 @@
 }
 
 @media screen and (max-width: 650px) {
-    
+    .app__navbar-lang {
+        display: none;
+    }
+
+    .coin__info svg, span {
+        display: none;
+    }
+
+
+    .shopping__cart {
+        display: none;
+    }
+
+    .app__navbar-ham {
+        color: white;
+        z-index: 999;
+    }
+
+    .app__navbar-logo {
+        display: none;
+    }
 }

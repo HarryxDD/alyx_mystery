@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Navbar, Sidebar } from './components';
+import { Contact, Navbar, Sidebar } from './components';
 import { Home } from './pages';
 
 import './App.css'
@@ -15,6 +15,7 @@ const App = () => {
         <div>
           <Home />
         </div>
+        <Contact />
     </div>
   )
 }

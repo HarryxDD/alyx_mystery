@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Newsfeed } from '../../components'
+import { Header, Newsfeed, Lookback, Partner } from '../../components'
 
 import './Home.css'
 
@@ -8,6 +8,8 @@ const Home = () => {
     <div className='app__homepage'>
         <Header />
         <Newsfeed />
+        <Lookback />
+        <Partner />
     </div>
   )
 }
