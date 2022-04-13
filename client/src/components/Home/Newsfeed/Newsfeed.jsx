@@ -1,6 +1,6 @@
 import React from 'react'
-import { News } from '../index'
-import { data } from '../../constants'
+import { News } from '../../index'
+import { data } from '../../../constants'
 
 import { MdDoubleArrow } from 'react-icons/md'
 
