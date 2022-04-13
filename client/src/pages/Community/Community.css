@@ -1,11 +1,11 @@
-.app__about {
+.app__community {
     display: flex;
     flex-direction: column;
     padding-top: 70px;
 }
 
 @media screen and (min-width: 1281px) {
-    .app__about {
+    .app__community {
         padding-left: 90px;
     }
 }
