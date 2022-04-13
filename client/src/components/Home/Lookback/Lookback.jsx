@@ -1,6 +1,6 @@
 import React from 'react'
-import { Achievement } from '../index'
-import { images, data } from '../../constants'
+import { Achievement } from '../../index'
+import { images, data } from '../../../constants'
 
 import './Lookback.css'
 

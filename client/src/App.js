@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Contact, Navbar, Sidebar } from './components';
-import { Home } from './pages';
+import { Home, About } from './pages';
 
 import './App.css'
 
@@ -14,6 +14,7 @@ const App = () => {
         <Sidebar toggleMenu={toggleMenu}/>
         <div>
           <Home />
+          {/* <About /> */}
         </div>
         <Contact />
     </div>

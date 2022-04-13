@@ -1,0 +1,10 @@
+.app__about {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1281px) {
+    .app__about {
+        padding-left: 90px;
+    }
+}
