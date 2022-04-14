@@ -1,7 +1,8 @@
 .app__about {
     display: flex;
     flex-direction: column;
-    padding-top: 70px;
+    position: relative;
+    /* top: 20px; */
 }
 
 @media screen and (min-width: 1281px) {

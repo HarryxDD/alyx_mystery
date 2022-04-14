@@ -7,6 +7,9 @@ import Lookback from "./Home/Lookback/Lookback";
 import Achievement from "./Home/Achievement/Achievement";
 import Partner from "./Partner/Partner";
 import Contact from "./Contact/Contact";
+import HeaderAbout from "./About/HeaderAbout/HeaderAbout";
+import ContentAbout from "./About/ContentAbout/ContentAbout";
+import TheSandBox from "./About/TheSandBox/TheSandBox";
 
 export {
     Navbar,
@@ -17,5 +20,8 @@ export {
     Lookback,
     Achievement,
     Partner,
-    Contact
+    Contact,
+    HeaderAbout,
+    ContentAbout,
+    TheSandBox,
 }

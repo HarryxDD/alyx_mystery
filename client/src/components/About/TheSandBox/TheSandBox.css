@@ -1,0 +1,260 @@
+.home__sandbox{
+    padding: 0;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    top: -60px;
+    background-color: #1b2026;
+    box-shadow: 3px 0 0px hsl(0deg 0% 100% / 20%);
+    position: relative;
+}
+
+.page__main{
+    padding: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__content-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.static-page{
+    margin: 0 auto;
+    overflow: hidden;
+    width: auto;
+    min-height: auto;
+    max-width: 1380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.home__section-container{
+    width: 100%;
+    margin: 70px 0 50px;
+}
+
+section {
+    display: block;
+}
+
+.home__section-container>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    list-style: none;
+}
+
+.sandbox>ul li{
+    height: 230px;
+    background: #282e36;
+}
+
+.sandbox>ul .icon-card{
+    position: relative;
+    z-index: 1;
+    left: 12px;
+    top: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+img {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    font-style: italic;
+    vertical-align: middle;
+    z-index: 4;
+}
+
+.home__section-container>ul>li{
+    flex-grow: 1;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    box-shadow: 0 0 7px rgb(0 0 0 / 35%);
+    margin-left: 3px;
+    transition: all .15s ease-in-out;
+}
+
+.sandbox>ul .background-rotate {
+    height: 120px;
+    background-color: #373f4a;
+    transform: rotate(5deg);
+    width: 110%;
+    position: absolute;
+    top: -25px;
+}
+
+.sandbox>ul .home__wrapper {
+    height: 100%;
+    padding: 60px 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.sandbox>ul .home__wrapper figure {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    height: 135px;
+}
+
+.figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.home__wrapper-info{
+    line-height: 1.5rem;
+    margin-bottom: 5px;
+}
+
+
+.home__section-container>ul>li .home__wrapper .home__wrapper-info {
+    text-align: left;
+}
+
+.sandbox>ul .home__wrapper .home__wrapper-info {
+    width: auto;
+    align-self: flex-end;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 32px;
+    font-family: var(--font-base);
+    margin: 30px 0;
+}
+
+.sandbox>ul .home__wrapper .home__wrapper-info h2{
+    margin: 0;
+}
+
+.text__info{
+    color: #fff;
+    font-weight: 600;
+}
+
+.text__info-decs{
+    font-family: var(--font-base);
+    color: #a0a4a7;
+}
+
+.link__items{
+    margin: 0 30px 0;
+}
+
+/* Our Products */
+
+.about{
+    margin-bottom: 0!important;
+}
+
+.home__section-container_text {
+    margin: 0 3px 10px;
+    letter-spacing: 0.01rem;
+    font-family: var(--font-base);
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.about>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.about>ul li{
+    height: 130px;
+    cursor: pointer;
+    flex-grow: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 380px;
+    justify-content: flex-start;
+}
+
+.about>ul li:first-child{
+    background: #03ce71;
+    background: linear-gradient(180deg,#03ce71 0,#04c940 61%);
+}
+
+.about>ul li:first-child div{
+    background: url('https://www.sandbox.game/img/14_Home/LAND-Slot.png') no-repeat 100%;
+}
+
+.home__section-container>ul>li:nth-child(2n) {
+    /* margin: 0 30px; */
+}
+
+.about>ul li:nth-child(2){
+    background: #00adef;
+    background: linear-gradient(180deg,#00adef 0,#0084ff 61%);
+}
+
+.about>ul li:nth-child(2) div{
+    background: url('https://www.sandbox.game/img/14_Home/SAND-Slot.png') no-repeat 100%;
+}
+
+.about>ul li:last-child{
+    background: #fa5c66;
+    background: linear-gradient(180deg,#fa5c66 0,#f53241 61%);
+}
+
+.about>ul li:last-child div{
+    background: url('https://www.sandbox.game/img/14_Home/FUND-Slot.png') no-repeat 100%;
+}
+
+.about>ul li div{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -10px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.about>ul li div .home__wrapper{
+    text-align: left;
+    margin: 10px;
+    background: none!important;
+}
+
+.about>ul li div .home__wrapper div{
+    background: none!important;
+}
+
+.about>ul li div .home__wrapper p{
+    margin-top: 0;
+    width: 240px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.about>ul li div .home__wrapper h3{
+    font-family: var(--font-base);
+    font-size: 20px;
+    font-weight: 650;
+}
