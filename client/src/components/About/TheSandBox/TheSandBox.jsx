@@ -1,5 +1,5 @@
 import React from 'react'
-import {images} from '../../../constants'
+import { data, images} from '../../../constants'
 
 import './TheSandBox.css'
 
@@ -128,6 +128,94 @@ const TheSandBox = () => {
                         </li>
                     </ul>
                     <a className="blog__link">See the latest news!</a>
+                </section>
+                <section className="home__partners">
+                    <h2 className="partners__text"> PARTNERS </h2>
+                    <ul className="press__logos main__partners">
+                        <li className="press__logo-partners">
+                            <a rel="noreferrer" href="https://www.sandbox.game/en/snoopdogg/" target="_blank">
+                                <img src="https://www.sandbox.game/img/14_Home/partners/Logo_Snoop.png" alt="snoopdogg" className="logo__img" />
+                            </a>
+                        </li>
+                        <li className="press__logo-partners">
+                            <a rel="noreferrer" href="https://thewalkingdead.sandbox.game/#/en/" target="_blank">
+                                <img src="https://www.sandbox.game/img/14_Home/partners/Logo_HomePartner_TWalkingD.svg" alt="thewalkingdead" className="logo__img" />
+                            </a>
+                        </li>
+                        <li className="press__logo-partners">
+                            <a rel="noreferrer" href="https://www.adidas.com" target="_blank">
+                                <img src="https://www.sandbox.game/img/14_Home/partners/Logo_Adidas.png" alt="adidas" className="logo__img" />
+                            </a>
+                        </li>
+                        <li className="press__logo-partners">
+                            <a rel="noreferrer" href="https://www.scmp.com/" target="_blank">
+                                <img src="https://www.sandbox.game/img/14_Home/partners/Logo_SCMP.png" alt="scmp" className="logo__img" />
+                            </a>
+                        </li>
+                        <li className="press__logo-partners">
+                            <a rel="noreferrer" href="https://avengedsevenfold.com" target="_blank">
+                                <img src="https://www.sandbox.game/img/14_Home/partners/Logo_HomePartner_ASevenfold.svg" alt="avenged sevenfold" className="logo__img" />
+                            </a>
+                        </li>
+                        <li className="press__logo-partners">
+                            <a rel="noreferrer" href="https://twitter.com/richiehawtin?lang=en" target="_blank">
+                                <img src="https://www.sandbox.game/img/14_Home/partners/Logo_HomePartner_RHawtin.png" alt="Richie Hawtin" className="logo__img" />
+                            </a>
+                        </li>
+                        <li className="press__logo-partners">
+                            <a rel="noreferrer" href="https://www.smurf.com" target="_blank">
+                                <img src="https://www.sandbox.game/img/14_Home/partners/smurf-logo.svg" alt="Smurf" className="logo__img" />
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <hr class="horizontal light"></hr>
+                <section className="home__roadmap">
+                    <h2 className="partners__text">Roadmap</h2>
+                    <p>
+                        See our detailed <a href="" className="partners__text-link" target="_blank">Roadmap</a>
+                    </p>
+                </section>
+                <hr class="horizontal light"></hr>
+                <section>
+                    <div className="home__about-us">
+                        <div className="about-us__static-header">
+                            <h1 className="text__about-us"> Meet the team</h1>
+                        </div>
+                        <div className="static-page">
+                            <div className="alyx-team">
+                                <div className="page__team-member is__centered">
+                                    <figure>
+                                        <img src="https://www.sandbox.game/img/14_Home/aboutus/001.png" alt="Cuong" />
+                                    </figure>
+                                    <p className="member__text">Cuong Lee</p>
+                                    <p className="member__sub-text">CEO</p>
+                                </div>
+                                <div className="page__team-member is__centered">
+                                    <figure>
+                                        <img src="https://www.sandbox.game/img/14_Home/aboutus/002.png" alt="Cuong" />
+                                    </figure>
+                                    <p className="member__text">Vu Ngu</p>
+                                    <p className="member__sub-text">COO</p>
+                                </div>
+                                <div className="page__team-member is__centered">
+                                    <figure>
+                                        <img src="https://www.sandbox.game/img/14_Home/aboutus/003.png" alt="Cuong" />
+                                    </figure>
+                                    <p className="member__text">Nghien Nhua</p>
+                                    <p className="member__sub-text">CFO</p>
+                                </div>
+                                <div className="page__team-member is__centered">
+                                    <figure>
+                                        <img src="https://www.sandbox.game/img/14_Home/aboutus/004.png" alt="Cuong" />
+                                    </figure>
+                                    <p className="member__text">Ddan thees</p>
+                                    <p className="member__sub-text">CTO</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
