@@ -91,6 +91,44 @@ const TheSandBox = () => {
                         </li>
                     </ul>
                 </section>
+                <section className="home__section-container articles">
+                    <h4 class="home__section-container_text"> Articles that may interest you</h4>
+                    <ul className="articles__links">
+                        <li className="articles__links-item">
+                        <a rel="noreferrer" href="https://medium.com/sandbox-game/the-evolution-of-the-sandbox-762f0023349" target="_blank">
+                            <div className="home__wrapper">
+                                <h3 className="articles__text">THE ALYX</h3>
+                                <p className="articles__sub-text">From 2D to 3D</p>
+                            </div>
+                            </a>
+                        </li>
+                        <li className="articles__links-item">
+                        <a rel="noreferrer" href="https://medium.com/sandbox-game/the-evolution-of-the-sandbox-762f0023349" target="_blank">
+                            <div className="home__wrapper">
+                                <h3 className="articles__text">ERC-1155</h3>
+                                <p className="articles__sub-text">A new standard</p>
+                            </div>
+                            </a>
+                        </li>
+                        <li className="articles__links-item">
+                        <a rel="noreferrer" href="https://medium.com/sandbox-game/the-evolution-of-the-sandbox-762f0023349" target="_blank">
+                            <div className="home__wrapper">
+                                <h3 className="articles__text">MINECRAFT</h3>
+                                <p className="articles__sub-text">Import your next work</p>
+                            </div>
+                            </a>
+                        </li>
+                        <li className="articles__links-item">
+                        <a rel="noreferrer" href="https://medium.com/sandbox-game/the-evolution-of-the-sandbox-762f0023349" target="_blank">
+                            <div className="home__wrapper">
+                                <h3 className="articles__text">NTFS</h3>
+                                <p className="articles__sub-text">User-generated content</p>
+                            </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <a className="blog__link">See the latest news!</a>
+                </section>
             </div>
         </div>
     )

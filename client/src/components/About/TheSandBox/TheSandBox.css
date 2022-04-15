@@ -3,7 +3,7 @@
     width: 100%;
     height: 1000px;
     margin: 0 auto;
-    top: -60px;
+    /* top: -60px; */
     background-color: #1b2026;
     box-shadow: 3px 0 0px hsl(0deg 0% 100% / 20%);
     position: relative;
@@ -187,7 +187,7 @@ h2 {
     flex-grow: 1;
     background-size: contain;
     background-repeat: no-repeat;
-    max-width: 380px;
+    /* max-width: 380px; */
     justify-content: flex-start;
 }
 
@@ -257,4 +257,88 @@ h2 {
     font-family: var(--font-base);
     font-size: 20px;
     font-weight: 650;
+}
+
+/* Articles */
+.articles>ul li:first-child {
+    background-image: url(https://www.sandbox.game/img/14_Home/Slot01.png);
+}
+
+.articles>ul li:nth-child(2) {
+    background-image: url(https://www.sandbox.game/img/14_Home/Slot02.png);
+}
+
+/* .home__section-container>ul>li:nth-child(2n) {
+    margin: 0 30px;
+} */
+
+.home__section-container>ul>li:hover {
+    box-shadow: 0 3px 15px rgb(0 0 0 / 55%);
+}
+
+.articles>ul li:nth-child(3) {
+    background-image: url(https://www.sandbox.game/img/14_Home/Slot03.png);
+}
+
+.articles>ul li:nth-child(4) {
+    background-image: url(https://www.sandbox.game/img/14_Home/Slot04.png);
+}
+
+.articles>ul li{
+    height: 100px;
+    flex-grow: 1;
+    background-position: top!important;
+    max-width: 290px;
+    margin: 0!important;
+    background-size: 132%;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.articles>ul li a{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.articles a{
+    cursor: pointer;
+    display: block;
+    float: right;
+    margin-top: 30px;
+    font-family: "Montserrat Bold",sans-serif;
+}
+
+.articles>ul li a .home__wrapper{
+    text-align: left;
+    margin: 10px;
+}
+
+.articles>ul li a .home__wrapper p{
+    margin-top: 0;
+    color: #fff;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.static-page h3 {
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-family: "Montserrat Regular",sans-serif;
+}
+
+.blog__link{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0084ff;
 }
