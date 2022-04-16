@@ -5,6 +5,19 @@
     /* top: 20px; */
 }
 
+.app__about-header
+{
+    /* position: relative; */
+}
+.app__about-content
+{
+    /* position: absolute; */
+}
+.app__about-sandbox
+{
+
+}
+
 @media screen and (min-width: 1281px) {
     .app__about {
         padding-left: 90px;

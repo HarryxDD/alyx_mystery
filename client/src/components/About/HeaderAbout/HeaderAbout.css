@@ -19,6 +19,11 @@
     bottom: 0;
 }
 
+.app__header-img img {
+    height: 500px;
+    object-fit: cover;
+}
+
 .app__header-text{
     position: absolute;
     top: 10rem;
