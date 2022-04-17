@@ -12,12 +12,12 @@ const ContentAbout = () => {
                             The Sandbox
                             </a>
                     </li>
-                    <li className="tab__menu-link">
+                    <li className="tab__menu-link tab__menu-link-a">
                         <a href="" className="subapp_link">
                             SAND
                             </a>
                     </li>
-                    <li className="tab__menu-link">
+                    <li className="tab__menu-link tab__menu-link-a">
                         <a href="" className="subapp_link">
                             Blog
                             </a>

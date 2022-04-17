@@ -36,7 +36,27 @@
     /* height: 50px; */
 }
 
+
 .tab__menu-link:hover{
     color: #fff;
     border-bottom: 5px solid rgb(0, 145, 241);
+}
+
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+      
+}
+
+@media screen and (max-width: 680px) {
+    .tab__menu-link{
+        padding: 10px 2rem;
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .tab__menu-link-a{
+        padding: 18px 38px;
+    }
 }

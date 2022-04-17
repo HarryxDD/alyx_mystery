@@ -7,7 +7,7 @@ const TheSandBox = () => {
     return (
         <div className="home__sandbox page__main">
             <div className="static-page home__content-container">
-                <section className="home__section-container sandbox">
+                <section className="home__section-container sandbox mg__left">
                     <ul>
                         <li className="link__items">
                             <div className="icon-card">
@@ -56,7 +56,7 @@ const TheSandBox = () => {
                         </li>
                     </ul>
                 </section>
-                <section className="home__section-container about">
+                <section className="home__section-container about mg__left">
                     <h4 class="home__section-container_text"> Learn About Our Products</h4>
                     <ul className="product-link">
                         <li className="link__items">
@@ -127,11 +127,11 @@ const TheSandBox = () => {
                             </a>
                         </li>
                     </ul>
-                    {/* <div className="blog__link">See the latest news!</div> */}
+                    <a className="blog__link">See the latest news!</a>
                 </section>
                 <section className="home__partners">
                     <h2 className="partners__text"> PARTNERS </h2>
-                    {/* <ul className="press__logos main__partners">
+                    <ul className="press__logos main__partners">
                         <li className="press__logo-partners">
                             <a rel="noreferrer" href="https://www.sandbox.game/en/snoopdogg/" target="_blank">
                                 <img src="https://www.sandbox.game/img/14_Home/partners/Logo_Snoop.png" alt="snoopdogg" className="logo__img" />
@@ -167,17 +167,17 @@ const TheSandBox = () => {
                                 <img src="https://www.sandbox.game/img/14_Home/partners/smurf-logo.svg" alt="Smurf" className="logo__img" />
                             </a>
                         </li>
-                    </ul> */}
+                    </ul>
                 </section>
                 <hr class="horizontal light"></hr>
                 <section className="home__roadmap">
                     <h2 className="partners__text">Roadmap</h2>
                     <p>
-                        See our detailed <span>Roadmap</span>
+                        See our detailed <span >Roadmap</span>
                     </p>
                 </section>
                 <hr class="horizontal light"></hr>
-                {/* <section>
+                <section>
                     <div className="home__about-us">
                         <div className="about-us__static-header">
                             <h1 className="text__about-us"> Meet the team</h1>
@@ -216,7 +216,7 @@ const TheSandBox = () => {
                             </div>
                         </div>
                     </div>
-                </section> */}
+                </section>
             </div>
         </div>
     )

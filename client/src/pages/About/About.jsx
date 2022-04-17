@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderAbout, ContentAbout, Partner, TheSandBox } from '../../components'
+import { HeaderAbout, ContentAbout, AboutAlyx, Partner, TheSandBox } from '../../components'
 import './About.css'
 
 const About = () => {
@@ -7,7 +7,8 @@ const About = () => {
       <div className='app__about'>
           <HeaderAbout/>
           <ContentAbout/>
-          <TheSandBox/>
+          {/* <TheSandBox/> */}
+          <AboutAlyx/>
           {/* <Partner /> */}
       </div>
     )

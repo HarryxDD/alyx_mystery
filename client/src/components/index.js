@@ -10,6 +10,9 @@ import Contact from "./Contact/Contact";
 import HeaderAbout from "./About/HeaderAbout/HeaderAbout";
 import ContentAbout from "./About/ContentAbout/ContentAbout";
 import TheSandBox from "./About/TheSandBox/TheSandBox";
+import AboutAlyxHeader from "./About/AboutAlyx/AboutAlyxHeader/AboutAlyxHeader";
+import AboutAlyx from "./About/AboutAlyx/AboutAlyx";
+import AlyxAvailable from "./About/AboutAlyx/AlyxAvailable/AlyxAvailable";
 
 export {
     Navbar,
@@ -24,4 +27,7 @@ export {
     HeaderAbout,
     ContentAbout,
     TheSandBox,
+    AboutAlyx,
+    AboutAlyxHeader,
+    AlyxAvailable,
 }

@@ -6,7 +6,6 @@
 }
 
 .app__header-info{
-    position: relative;
     display: flex;
     align-items: center;
     width: 100%;
@@ -25,9 +24,7 @@
 }
 
 .app__header-text{
-    position: absolute;
-    top: 10rem;
-    left: 15.625rem;
+    margin-left: 10%;
     width: 27rem;
     z-index: 1;
     display: flex;
@@ -52,4 +49,57 @@
     font-size: 1.1rem;
     width: 23rem;
     line-height: 1.6rem;
+}
+
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+    .app__header-text{
+        margin-left: 5%;
+        margin-bottom: -15%;
+    
+    }
+ 
+    .app__header-img img{
+        height: 100vh;
+        max-height: 100vh;
+    }
+
+    .app__header-title
+    {
+        font-size: 1rem;
+    }
+    .app__header-dec h1
+    {
+        font-size: 3rem;
+    }
+    .app__header-dec p
+    {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .app__header-text{
+        margin-left: 10px;
+        margin-bottom: -60%;
+        /* font-size: 0.5rem; */
+    }
+
+    .app__header-title
+    {
+        font-size: 0.8rem;
+    }
+    .app__header-dec h1
+    {
+        font-size: 1.5rem;
+    }
+    .app__header-dec p
+    {
+        font-size: 0.8rem;
+        max-width: 320px;
+    }
 }

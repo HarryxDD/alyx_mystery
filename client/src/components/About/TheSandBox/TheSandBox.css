@@ -12,6 +12,7 @@
 .page__main{
     padding: 0;
     width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,6 +42,10 @@
 
 section {
     display: block;
+}
+
+.mg__left{
+    margin-left: 25px;
 }
 
 .home__section-container>ul{
@@ -260,6 +265,19 @@ h2 {
 }
 
 /* Articles */
+
+.articles{
+    padding: 15px;
+}
+
+/* .articles ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    
+} */
+
+
 .articles>ul li:first-child {
     background-image: url(https://www.sandbox.game/img/14_Home/Slot01.png);
 }
@@ -366,9 +384,11 @@ a:-webkit-any-link {
 }
 
 .home__partners .press__logos{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(7,1fr);
     list-style-type: none;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 10px;
@@ -390,6 +410,15 @@ a:-webkit-any-link {
     max-height: 100px;
 }
 
+.press__logo-partners{
+    
+}
+
+.press__logo-partners img{
+    margin: 20px 0;
+    /* flex-wrap: wrap; */
+}
+
 /* .main__partners{
     background-color: #373f4a;
     width: 100%;
@@ -409,6 +438,8 @@ hr.horizontal {
     height: 1px;
 }
 
+
+/* Roadmap */
 .home__roadmap{
     max-width:1200px;
     width: 100%;
@@ -417,16 +448,20 @@ hr.horizontal {
 
 .home__roadmap p{
     font-size: 17px;
-    color: #000;
+    color: #fff;
     line-height: 20px;
     text-align: center;
     font-family: var(--font-base);
+    font-weight: 400;
 }
 
-.partners__text-link{
+.home__roadmap span{
+    font-size: 20px;
     font-weight: 700;
     color: #0084ff;
 }
+
+/* Team */
 
 .home__about-us .about-us__static-header {
     padding: 61px 0 40px;
@@ -441,6 +476,7 @@ hr.horizontal {
     font-size: 3rem;
     font-weight: 800;
     text-align: center;
+    color: #fff;
 }
 
 .alyx-team{
@@ -471,6 +507,7 @@ hr.horizontal {
     font-family: var(--font-base);
     font-size: 1rem;
     font-weight: 600;
+    color: #fff;
 }
 
 .member__sub-text{
@@ -479,4 +516,80 @@ hr.horizontal {
     font-weight: 500;
     margin-top: 5px;
     color: #BDC0C2;
+}
+
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+    .home__section-container>ul{
+        flex-direction: column;
+    }
+
+    .home__section-container>ul li{
+        margin: 15px 20px;
+    }
+
+    .about>ul li div .home__wrapper p {
+        font-size: 20px;
+        max-width: 100%;
+        width: 70%;
+        line-height: 30px;
+        margin-top: 8px;
+        font-size: 1.2rem;
+    }
+    
+    /* .articles{
+        display: block;
+    }
+
+    .articles>li{
+        display: block;
+    }
+
+    .articles li a{
+        text-decoration: none;
+        display: block;
+        padding: 0 24px;
+        line-height: 46px;
+    } */
+
+    .articles>ul li{
+        width: 100%;
+        max-width: 100%;
+        height: 180px;
+        margin-bottom: 20px!important;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 680px) {
+    
+    .sandbox>ul li {
+        height: 160px;
+    }
+    .press__logo-partners img{
+        margin: 40px 50px;
+        /* flex-wrap: wrap; */
+    }
+
+    .about>ul li div .home__wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .home__section-container {
+        width: 100%;
+        margin: 20px 0 20px;
+    }
+
+    .articles>ul li{
+        width: 100%;
+        max-width: 100%;
+        height: 100px;
+        margin-bottom: 20px!important;
+    }
 }

@@ -1,0 +1,169 @@
+.banner__alyx-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 369px;
+    box-shadow: none;
+    background-image: none;
+    background: #7800aa;
+    padding: 44px;
+    background: linear-gradient(180deg,#7800aa 0,#25035a 60%,#14181d);
+}
+
+.banner__alyx-section{
+    max-height: 480px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    width: 70%;
+    max-width: 690px;
+}
+
+.info__title{
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    font-family: var(--font-base);
+    color: #fff;
+}
+
+.info__sub-title{
+    font-family: var(--font-base);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.info .btn__container{
+    margin: 20px 0 0;
+}
+
+.btn__container .btn{
+    position: relative;
+    font-family: var(--font-base);
+    color: #fff;
+    text-align: center;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 600;
+    min-width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 11px 24px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.btn__buy{
+    background-color: #0084ff;
+    margin-right: 40px;
+}
+
+.btn__container .btn__stake{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.btn__buy:hover,
+.btn__stake:hover{
+    background-color: #05f;
+    border: none;
+}
+
+.btn__link{
+    font-family: var(--font-base);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #00ADEF;
+}
+
+.alyx__banner figure{
+    position: relative;
+    width: 418px;
+    height: 473px;
+    margin-right: -4%;
+    margin-top: 0;
+}
+
+.alyx__banner figure img{
+    margin-right: 190px;
+}
+
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+    .alyx__banner .info{
+        order: 1;
+        width: auto;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        margin-right: 36px;
+    }
+
+    .alyx__banner figure img {
+        margin-left: -40px;
+        margin-top: 50px;
+    }
+
+    .banner__alyx-section {
+       margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .alyx__banner figure img {
+        display:none;
+    }
+    .info__title{
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+
+    .info {
+        
+        width: auto;
+        margin-right: 50px;
+    }
+
+    .alyx__banner .info{
+        margin-right: 10px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alyx__banner figure img {
+        display:none;
+    }
+
+    .banner__alyx-section .info{
+        margin: 20px 0 10px -100px;
+    }
+    
+    .info__title{
+        font-size: 2.3rem;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+
+    .info__sub-title{
+        font-size: 1rem;
+    }
+
+    .btn__container .btn{
+        margin-bottom: 20px;
+    }
+
+    .btn__container .btn .btn__stake{
+        margin-bottom: 0;
+    }
+}
