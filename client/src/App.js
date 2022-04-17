@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Contact, Navbar, Sidebar } from './components';
-import { Home, About, Community } from './pages';
+import { Home, About, Community, Market } from './pages';
 
 import './App.css'
 
@@ -12,11 +12,12 @@ const App = () => {
     <div>
         <Navbar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
         <Sidebar toggleMenu={toggleMenu}/>
-        <div>
+        <div className="main__alyx">
 
           {/* <Home /> */}
+          <Market/>
           {/* <About /> */}
-          <Community />
+          {/* <Community /> */}
 
         </div>
         <Contact />

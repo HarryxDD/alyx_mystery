@@ -1,0 +1,16 @@
+.app__market {
+    display: flex;
+    flex-direction: column;
+    /* top: 90px; */
+}
+.app__market-container{
+    margin-top: 70px;
+    background-color: #1d232a;
+    display: flex;
+}
+
+@media screen and (min-width: 1281px) {
+    .app__market {
+        padding-left: 90px;
+    }
+}
