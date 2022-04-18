@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutAlyxHeader, AlyxAvailable, CurrentProduct, KeyMetrics } from '../../../components'
+import { AboutAlyxHeader, AlyxAvailable, AlyxContent, CurrentProduct, KeyMetrics } from '../../../components'
 import './AboutAlyx.css'
 
 const AboutAlyx = () => {
@@ -10,6 +10,7 @@ const AboutAlyx = () => {
                 <div className="alyx__content alyx__sb-container">
                     <AboutAlyxHeader/>
                     <AlyxAvailable/>
+                    <AlyxContent/>
                 </div>
             </div>
         </div>

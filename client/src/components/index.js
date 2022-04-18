@@ -13,6 +13,7 @@ import TheSandBox from "./About/TheSandBox/TheSandBox";
 import AboutAlyxHeader from "./About/AboutAlyx/AboutAlyxHeader/AboutAlyxHeader";
 import AboutAlyx from "./About/AboutAlyx/AboutAlyx";
 import AlyxAvailable from "./About/AboutAlyx/AlyxAvailable/AlyxAvailable";
+import AlyxContent from "./About/AboutAlyx/AboutAlyxContent/AlyxContent";
 
 export {
     Navbar,
@@ -30,4 +31,5 @@ export {
     AboutAlyx,
     AboutAlyxHeader,
     AlyxAvailable,
+    AlyxContent,
 }
