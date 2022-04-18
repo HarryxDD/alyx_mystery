@@ -120,6 +120,79 @@
     font-weight: 500;
 }
 
+/* What is Alyx*/
+
+.whatisAlyx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text,
+.paragraphs1 p{
+    color: #fff;
+    font-family: var(--font-base);
+    padding: 20px 80px;
+    font-size: 1.4rem;
+}
+
+ .center{
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.alyx__content .items__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1060px;
+    padding: 20px 80px;
+}
+.alyx__content .items__container .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.items__container .items img{
+    margin-right: 20px;
+    height: 23px;
+    width: 20px;
+}
+
+.column__text,
+.column p{
+    margin: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: var(--font-base);
+}
+
+.subtitle{
+    width: 1060px;
+    margin: 20px 80px auto;
+    font-family: var(--font-base);
+    color: #fff;
+    font-size: 1.4rem;
+}
+small{
+    font-size: smaller;
+}
+
+.items .row h2{
+    font-size: 1.4rem;
+    margin: 0;
+    color: #fff;
+}
+
 @media screen and (min-width: 2000px) {
 
 }
@@ -155,6 +228,23 @@
         height: 50px;
         padding: 0 10px;
     }
+
+    .alyx__content .items__container{
+        width: 100%;
+    }
+
+    .text,
+    .paragraphs1 p,
+    .column__text,
+    .column p,
+    .subtitle,
+    .items .row h2{
+        font-size: 1rem;
+    }
+
+    .subtitle{
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -162,7 +252,6 @@
     .alyx__sub-partners{
         flex-direction: column;
     }
-    
 
     .alyx__grid-table .header__grid-table{
         font-size: 15px;
@@ -171,5 +260,34 @@
         font-size: 12px;
         height: 50px;
         padding: 0 10px;
+    }
+    .text,
+    .paragraphs1 p,
+    .column__text,
+    .column p,
+    .subtitle,
+    .items .row h2{
+        font-size: 0.8rem;
+    }
+    .center img{
+        display: none;
+    }
+
+    .alyx__content .item__container .items img{
+        width: 12px;
+    }
+
+    .whatisAlyxP{
+        margin-top: -130px;
+        margin-bottom: -10px;
+    }
+    .alyx__content .items__container .items{
+        margin: 0;
+    }
+    .alyx__content .items__container{
+        padding: 0 80px;
+    }
+    .alyx__content .last .items{
+        margin-top: 10px;
     }
 }
