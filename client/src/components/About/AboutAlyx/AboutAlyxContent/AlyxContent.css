@@ -1,0 +1,293 @@
+.alyx__content{
+    padding: 0px 10px;
+}
+
+.card__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__alyx-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 49%;
+    height: 165px;
+    background: #282e36;
+    box-shadow: 0 2px 4px #14181d;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+}
+
+.card__alyx-box img{
+    margin-right: 10px;
+}
+
+.border__vertical{
+    border: none;
+    width: 1px;
+    height: 100%;
+    margin: 0 24px;
+    background-color: #a0a4a7;
+}
+
+.box__content{
+    font-family: var(--font-base);
+    color: #fff;
+}
+
+.box__content h2{
+    font-size: 2.2rem;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.box__content p{
+    line-height: 25px;
+}
+
+/* Current Products: */
+
+.current__pros{
+    margin: 100px 0 100px;
+    font-size: 28px;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.sandbox .set__height{
+    height: 180px;
+}
+
+.text__icon{
+    display: flex;
+    flex-direction: row;   
+}
+
+.text__icon-info
+{
+    margin: 10px 15px;
+}
+
+/* Key Metrics */
+
+.key__metrics{
+    text-align: center;
+    color: #fff;
+    margin: 100px 0 10px;
+}
+
+.alyx__grid-table{
+    display: inline-grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto-fill,1fr);
+    grid-gap: 0 0;
+    gap: 0 0;
+    width: 100%;
+    padding: 20px 80px;
+}
+
+.alyx__grid-table div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    padding: 0 60px;
+    border-bottom: 1px solid #a0a4a7;
+    font-size: 18px;
+}
+
+.header__grid-table{
+    background-color: #505861;
+    border: none;
+    font-size: 22px;
+}
+
+.main__text-grid,
+.sub__text-grid{
+    font-family: var(--font-base);
+    color: #fff;
+}
+.main__text-grid{
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* What is Alyx*/
+
+.whatisAlyx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text,
+.paragraphs1 p{
+    color: #fff;
+    font-family: var(--font-base);
+    padding: 20px 80px;
+    font-size: 1.4rem;
+}
+
+ .center{
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.alyx__content .items__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1060px;
+    padding: 20px 80px;
+}
+.alyx__content .items__container .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.items__container .items img{
+    margin-right: 20px;
+    height: 23px;
+    width: 20px;
+}
+
+.column__text,
+.column p{
+    margin: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    font-family: var(--font-base);
+}
+
+.subtitle{
+    width: 1060px;
+    margin: 20px 80px auto;
+    font-family: var(--font-base);
+    color: #fff;
+    font-size: 1.4rem;
+}
+small{
+    font-size: smaller;
+}
+
+.items .row h2{
+    font-size: 1.4rem;
+    margin: 0;
+    color: #fff;
+}
+
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+    .card__container{
+        flex-direction: column;
+    }
+    .card__alyx-box{
+        max-width: 90%;
+        margin: 20px 20px;
+        height: 100%;
+    }
+    .sandbox>ul .fix__rotate{
+        height: 146px;
+        top: -54px;
+    }
+    .alyx__grid-table{
+        width: 1070px;
+        height: 245px;
+        margin-left: calc(50% - 535px);
+    }
+
+    .alyx__grid-table{
+        width: 100%;
+        margin: auto;
+    }
+    .main__text-grid{
+        font-size: 1.2rem;
+    }
+    .alyx__grid-table div{
+        font-size: 1rem;
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    .alyx__content .items__container{
+        width: 100%;
+    }
+
+    .text,
+    .paragraphs1 p,
+    .column__text,
+    .column p,
+    .subtitle,
+    .items .row h2{
+        font-size: 1rem;
+    }
+
+    .subtitle{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .alyx__main-partners,
+    .alyx__sub-partners{
+        flex-direction: column;
+    }
+
+    .alyx__grid-table .header__grid-table{
+        font-size: 15px;
+    }
+    .alyx__grid-table div{
+        font-size: 12px;
+        height: 50px;
+        padding: 0 10px;
+    }
+    .text,
+    .paragraphs1 p,
+    .column__text,
+    .column p,
+    .subtitle,
+    .items .row h2{
+        font-size: 0.8rem;
+    }
+    .center img{
+        display: none;
+    }
+
+    .alyx__content .item__container .items img{
+        width: 12px;
+    }
+
+    .whatisAlyxP{
+        margin-top: -130px;
+        margin-bottom: -10px;
+    }
+    .alyx__content .items__container .items{
+        margin: 0;
+    }
+    .alyx__content .items__container{
+        padding: 0 80px;
+    }
+    .alyx__content .last .items{
+        margin-top: 10px;
+    }
+}
