@@ -1,7 +1,7 @@
 .app__sidebar {
     display: flex;
     flex: 1;
-    flex-direction: column;
+    flex-direction: row;
     width: 90px;
     height: 100%;
     position: fixed;
@@ -61,6 +61,69 @@
     color: white;
 }
 
+/* Market sidebar */
+.sidebar__actions{
+    min-width: 240px;
+    height: 100%;
+    padding-bottom: 60px;
+    overflow: auto;
+    background-color: #1d232a;
+    height: calc(100vh - 60px);
+    box-shadow: inset -4px 0 8px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+}
+
+.market__sidebar{
+    transition: all .1s ease;
+    width: 240px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    min-height: 0;
+    z-index: 1000;
+}
+
+.market__sidebar h2{
+    padding-left: 21px;
+    margin: 16px 0;
+    font-size: 28px;
+    line-height: 23px;
+    font-family: "Montserrat Bold";
+    color: #fff;
+    text-align: left;
+}
+
+.market__sidebar h2.shope__tittle{
+    color: #a0a4a7;
+    font-family: var(--font-base);
+}
+
+.market__sidebar .market__sidebar-separator{
+    border: 0;
+    height: 2px;
+    width: 100%;
+    margin: 0 auto;
+    background: #14181d;
+}
+
+.for__sale{
+    margin: 10px 20px;
+}
+
+.for__sale-switch{
+    width: 100%;
+    color: #fff;
+}
+
+.for__sale-switch input {
+    position: absolute;
+    left: -9999px;
+}
+
+/* Res */
 @media screen and (max-width: 1280px) {
     .app__sidebar {
         position: fixed;
