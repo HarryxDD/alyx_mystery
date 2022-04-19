@@ -7,6 +7,7 @@ import Lookback from "./Home/Lookback/Lookback";
 import Achievement from "./Home/Achievement/Achievement";
 import Partner from "./Partner/Partner";
 import Contact from "./Contact/Contact";
+import sidebarMarket from "./Market/sidebarMarket/sidebarMarket";
 
 export {
     Navbar,
@@ -17,5 +18,6 @@ export {
     Lookback,
     Achievement,
     Partner,
-    Contact
+    Contact,
+    sidebarMarket,
 }

@@ -1,12 +1,15 @@
-import React from 'react'
-import { Header, Newsfeed, Lookback, Partner } from '../../components'
+import React, { useState } from 'react';
+import { sidebarMarket } from '../../components'
 
 import './Market.css'
 
-const Market = ({ toggleMenu }) => {
+const Market = () => {
+
+  const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <div className="app__market">
-        
+        <sidebarMarket toggleMenu={toggleMenu}/>
     </div>
   )
 }
