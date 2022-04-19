@@ -1,8 +1,9 @@
 import React from 'react'
 import { News } from '../../index'
 import { data } from '../../../constants'
-
 import { MdDoubleArrow } from 'react-icons/md'
+
+import { Link } from 'react-router-dom'
 
 import './Newsfeed.css'
 
@@ -16,8 +17,12 @@ const Newsfeed = () => {
                     <h1 className='text__title'>WHAT'S NEW</h1>
                 </div>
                 <div className='community__explore'>
-                    <p>Read more</p>
-                    <MdDoubleArrow />
+                    <Link to="/community">
+                    <div className='community__explore-link'>
+                        <p>Read more</p>
+                        <MdDoubleArrow />
+                    </div>
+                    </Link>
                 </div>
             </div>
             <div className='community__news'>

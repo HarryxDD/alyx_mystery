@@ -1,13 +1,13 @@
 import React from 'react'
 import { FaTwitter, FaFacebookF, FaTelegramPlane } from 'react-icons/fa'
-
+import { images } from '../../../constants'
 import './LatestPost.css'
 
 const LatestPost = () => {
   return (
     <div className='comm__latest comm__padding'>
-      <div className='latest__img'>
-        <img src="https://strapi.sandbox.game/uploads/blog_banner_76dc57aa3e_e511e2edda.png" alt="" />
+      <div className='comm__latest-img'>
+        <img src={images.lastest_post} alt="" />
       </div>
       <div className='latest__desc'>
         <div className='desc__title'>

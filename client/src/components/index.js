@@ -9,8 +9,6 @@ import Header from "./Home/Header/Header";
 import Newsfeed from "./Home/Newsfeed/Newsfeed";
 import Lookback from "./Home/Lookback/Lookback";
 import Achievement from "./Home/Achievement/Achievement";
-import Partner from "./Partner/Partner";
-import Contact from "./Contact/Contact";
 
 // About
 import HeaderAbout from "./About/HeaderAbout/HeaderAbout";

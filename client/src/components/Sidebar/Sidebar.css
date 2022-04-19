@@ -36,20 +36,24 @@
     width: 37px;
     height: 37px;
     border-radius: 50%;
-    margin-bottom: 0.3rem;
+    margin: auto;
 }
 
 .menu__icon-home {
     background-image: linear-gradient(to right bottom, rgb(253, 105, 105), red);
+    margin-bottom: 0.4rem;
 }
 .menu__icon-game {
     background-image: linear-gradient(to right bottom, rgb(82, 248, 165), rgb(0, 153, 0));
+    margin-bottom: 0.4rem;
 }
 .menu__icon-market {
     background-image: linear-gradient(to right bottom, rgb(105, 152, 253), rgb(0, 47, 255));
+    margin-bottom: 0.4rem;
 }
 .menu__icon-about {
     background-image: linear-gradient(to right bottom, rgb(253, 226, 105), rgb(196, 150, 0));
+    margin-bottom: 0.4rem;
 }
 
 .app__sidebar-menu li img {

@@ -32,6 +32,11 @@
     cursor: pointer;
 }
 
+.community__explore-link {
+    display: flex;
+    align-items: center;
+}
+
 .community__news {
     display: flex;
     justify-content: space-between;

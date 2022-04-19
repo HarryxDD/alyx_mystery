@@ -1,6 +1,7 @@
 import React from 'react'
 import images from '../../../constants'
 import './ContentAbout.css'
+import { Link } from 'react-router-dom'
 
 const ContentAbout = () => {
     return (
@@ -8,19 +9,13 @@ const ContentAbout = () => {
             <div className="sb-container">
                 <ul className="tab__link">
                     <li className="tab__menu-link">
-                        <a href="" className="subapp_link">
-                            The Sandbox
-                            </a>
+                        <Link to="/about">The Alyx</Link>
                     </li>
                     <li className="tab__menu-link tab__menu-link-a">
-                        <a href="" className="subapp_link">
-                            SAND
-                            </a>
+                        <Link to="/about/coin">ALYX</Link>
                     </li>
                     <li className="tab__menu-link tab__menu-link-a">
-                        <a href="" className="subapp_link">
-                            Blog
-                            </a>
+                        <Link to="/community">Community</Link>
                     </li>
                 </ul>
             </div>

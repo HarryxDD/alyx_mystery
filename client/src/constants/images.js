@@ -5,6 +5,7 @@ import header2 from '../assets/header_img2.jpg'
 import knight from '../assets/chaos-knight.png'
 import brotherhood from '../assets/brotherhood.jpg'
 import about_banner from '../assets/about_banner.jpg'
+import lastest_post from '../assets/lastestpost.jpg'
 
 export default {
     alyx,
@@ -14,4 +15,5 @@ export default {
     knight,
     brotherhood,
     about_banner,
+    lastest_post
 };
