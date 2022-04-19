@@ -65,12 +65,13 @@
 .sidebar__actions{
     min-width: 240px;
     height: 100%;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
     overflow: auto;
     background-color: #1d232a;
     height: calc(100vh - 60px);
     box-shadow: inset -4px 0 8px rgb(0 0 0 / 20%);
-    display: flex;
+    /* display: flex; */
+    display: none;
     flex-direction: column;
 }
 
@@ -248,10 +249,53 @@
 }
 
 .market__catalogue .catalogue__list-item__tittle {
-    margin: 10px 10px 5px !important; 
+    margin: -15px 20px 5px !important; 
 }
 
+.market__catalogue .sidebar__item .sidebar__item{
+    margin-top: 20px;
+    margin-left: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.sidebar__item-tittle{
+    margin: 20px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebar__item .feature__logo 
+{
+    width: 17px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.mt_1{
+    margin-top: -30px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    margin-right: 4px;
+}
+
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover {
+    background: #505861;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
 
 /* Res */
 @media screen and (max-width: 1280px) {
