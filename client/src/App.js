@@ -14,9 +14,9 @@ const App = () => {
         <Sidebar toggleMenu={toggleMenu}/>
         <div>
 
-          <Home />
+          {/* <Home /> */}
           {/* <About /> */}
-          {/* <Community /> */}
+          <Community />
 
         </div>
         <Contact />
