@@ -9,9 +9,10 @@ const App = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div>
+    <div className="app__default">
         <Navbar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
         <Sidebar toggleMenu={toggleMenu}/>
+      
         <div>
 
           {/* <Home /> */}
@@ -19,7 +20,7 @@ const App = () => {
           <Community />
 
         </div>
-        <Contact />
+        {/* <Contact /> */}
     </div>
   )
 }
