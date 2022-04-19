@@ -42,11 +42,30 @@ const Sidebar = ({ toggleMenu }) => {
         <div className="sidebar__actions">
             <div className="market__sidebar">
                 <h2 className="shope__tittle">SHOP</h2>
-                <hr className="market__sidebar-separator" />
                 <div className="for__sale">
                     <div className="for__sale-switch">
                         <input type="checkbox" id="switch"/>
-                        
+                        <label for="switch">
+                            <div>
+                                <h2 className="for__sale-title"> For Sale </h2>
+                            </div>
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+                <hr className="market__sidebar-separator" />
+                <div className="market__catalogue">
+                    <div className="market__catalogue-list">
+                        <p className="catalogue__list-tittle">NFT COLLECTION
+                            <div className="tintable-image">
+                                <img src={images.arrowup} className="arrow" alt=""/>
+                            </div>
+                        </p>
+                        <div className="catalogue__list-item">
+                            <div className="mt-4">
+                                <p className="catalogue__list-item__tittle">Featured</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

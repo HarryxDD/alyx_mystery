@@ -91,7 +91,7 @@
     margin: 16px 0;
     font-size: 28px;
     line-height: 23px;
-    font-family: "Montserrat Bold";
+    font-family: var(--font-base);
     color: #fff;
     text-align: left;
 }
@@ -122,6 +122,136 @@
     position: absolute;
     left: -9999px;
 }
+
+.for__sale-switch label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.for__sale-switch label h2{
+    font-family: var(--font-base);
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* checkbox */
+.for__sale-switch span:last-child {
+    position: relative;
+    width: 50px;
+    height: 26px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgb(0 0 0 / 40%);
+    background: #555d62;
+    transition: all .3s;
+}
+
+.for__sale-switch span:last-child:before {
+    left: 1px;
+    top: 1px;
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    transition: transform .3s;
+}
+
+.for__sale-switch span:last-child:after {
+    top: 50%;
+    right: 8px;
+    width: 12px;
+    height: 12px;
+    transform: translateY(-50%);
+    background: url(https://www.sandbox.game/img/25_Shop/uncheck-switcher.svg);
+    background-size: 12px 12px;
+}
+
+.for__sale-switch span:last-child:after, .for__sale-switch span:last-child:before {
+    content: "";
+    position: absolute;
+}
+
+/* checkbox sale*/
+.for__sale-switch input:checked+label span:last-child {
+    background: #03ce71;
+}
+
+.for__sale-switch input:checked+label span:last-child:before {
+    transform: translateX(24px);
+}
+
+.for__sale-switch input:checked+label span:last-child:after {
+    width: 14px;
+    height: 14px;
+    left: 8px;
+    background-image: url(https://www.sandbox.game/img/25_Shop/checkmark-switcher.svg);
+    background-size: 14px 14px;
+}
+
+
+/* List items */
+.market__sidebar .market__catalogue-list{
+    display: flex;
+    flex-direction: column;
+}
+.market__catalogue-list{
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.market__catalogue-list .catalogue__list-tittle{
+    padding: 20px 22px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: var(--font-base);
+    color: #a0a4a7;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.market__catalogue-list .catalogue__list-tittle .tintable-image{
+    width: 17px;
+    height: 18px;
+}
+.arrow{
+    margin-top: -3px;
+    margin-left: -10px;
+}
+
+.market__catalogue-list .catalogue__list-tittle,
+.market__catalogue-list .catalogue__list-tittle .tintable-image {
+    transition-property: all;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+
+.market__catalogue-list .catalogue__list-tittle:hover,
+.market__catalogue-list .catalogue__list-tittle .tintable-image img{
+    color: #e6e6e6;
+}
+
+.catalogue__list-item{
+    height: auto;
+    padding-bottom: 22px;
+}
+
+.mt-4{
+    margin-top: 20px!important;
+}
+
+.market__catalogue .catalogue__list-item__tittle {
+    margin: 10px 10px 5px !important; 
+}
+
+
 
 /* Res */
 @media screen and (max-width: 1280px) {
