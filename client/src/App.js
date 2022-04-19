@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Contact, Navbar, Sidebar } from './components';
-import { Home, About, Community } from './pages';
+import { Home, ProductInfo, NewsBlog } from './pages';
 
 import './App.css'
 
@@ -13,13 +13,13 @@ const App = () => {
         <Navbar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
         <Sidebar toggleMenu={toggleMenu}/>
         <div>
-
-          {/* <Home /> */}
-          {/* <About /> */}
-          <Community />
-
+          {/* <Home/> */}
+          {/* <About/> */}
+          {/* <Community/> */}
+          <ProductInfo/>
+          {/* <NewsBlog/> */}
         </div>
-        <Contact />
+        <Contact/>
     </div>
   )
 }

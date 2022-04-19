@@ -1,0 +1,16 @@
+<svg id="Telegram_Logo" data-name="Telegram Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.667" y1="0.167" x2="0.417" y2="0.75" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#37aee2"/>
+      <stop offset="1" stop-color="#1e96c8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.66" y1="0.437" x2="0.851" y2="0.802" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eff7fc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <circle id="Elipse_8" data-name="Elipse 8" cx="15" cy="15" r="15" opacity="0" fill="url(#linear-gradient)"/>
+  <path id="Trazado_115" data-name="Trazado 115" d="M84.038,91.8c-.5,0-.411-.182-.582-.642L82,86.483,93.208,80" transform="translate(-72.223 -70.039)" fill="#c8daea"/>
+  <path id="Trazado_116" data-name="Trazado 116" d="M98,148.206a.988.988,0,0,0,.764-.373L100.8,145.9l-2.542-1.495" transform="translate(-86.186 -126.448)" fill="#a9c9dd"/>
+  <path id="Trazado_117" data-name="Trazado 117" d="M55.43,81.15l6.16,4.437c.7.378,1.21.182,1.385-.636l2.507-11.52c.257-1-.392-1.459-1.065-1.161L49.695,77.805c-1,.393-1,.94-.183,1.183l3.778,1.15,8.747-5.38c.413-.244.792-.113.481.156" transform="translate(-43.356 -63.191)" fill="url(#linear-gradient-2)"/>
+</svg>
