@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { images } from '../../constants'
+import { images, data } from '../../constants'
 
 import './Contact.css'
 
@@ -20,7 +20,39 @@ const Contact = () => {
             </div>
         </div>
         <div className='app__contact-info'>
-            VÃI LỒN
+
+            <div className='info__logo'>
+                <img src={images.alyx} alt="" />
+            </div>
+            
+            <div className='contact__info'>
+                <div className='info__pages'>
+                    <h2 className='info__title'>PAGES</h2>
+                    <ul className='info__list'>
+                        <li>Home</li>
+                        <li>Game</li>
+                        <li>Market</li>
+                        <li>About</li>
+                        <li>Community</li>
+                    </ul>
+
+                </div>
+
+                <div className='info__social'>
+                    <h2 className='info__title'>SOCIAL</h2>
+                    <div className='info__item'>
+                        {data.social.map((social, index) => (
+                            <div className='item__list' key={index}>
+                            <a href={social.link}>
+                                <img src={social.image} alt="" ></img>
+                            </a>
+                        </div>
+                        ))}
+                    </div>
+                    
+                </div>
+            </div>
+
         </div>
         <div className='app__contact-copyright'>
         Copyright © 2022 The Alyx Mystery All Wrongs Reserved

@@ -1,0 +1,57 @@
+.academy__lesson {
+    display: flex;
+    width: 31%;
+}
+
+.academy__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.academy__item-img {
+    margin: 5px 0 20px 0;
+}
+
+.academy__item-img img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+
+.academy__item-title {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0.6rem 0;
+    line-height: 1.4rem;
+}
+
+.academy__item-desc {
+    font-size: 15px; 
+    color: var(--color-lightgray);
+}
+
+
+/* @media screen and (min-width:2000px) {
+    .app__new-item {
+        height: 700px;
+    }
+}    */
+
+
+@media screen and (max-width: 680px) {
+
+    .academy__lesson {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .academy__item-img img {
+        width: 100%;
+    }
+
+    .academy__item-title {
+        height: 45%;
+    }
+    
+}

@@ -1,0 +1,127 @@
+.comm__latest {
+    display: flex;
+}
+
+.latest__img {
+    display: flex;
+    height: 415px;
+    cursor: pointer;
+}
+
+.latest__img img {
+    width: 729px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.latest__desc {
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    margin-left: 39px;
+}
+
+.desc__title {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    cursor: pointer;
+}
+
+.desc__title-category {
+    color: #31aed8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.desc__title-title {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0.6rem 0;
+    line-height: 1.4rem;
+}
+
+.desc__title-desc {
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.2rem;
+}
+
+.desc__info {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: space-around;
+}
+
+.desc__info-date {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #6c6e71;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.desc__info-social {
+    color: #6c6e71;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-top: 1px solid #6c6e71;
+    padding-top: 22px;
+}
+
+.desc__info-social svg {
+    font-size: 18px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1113px) {
+    .latest__desc {
+        width: 100%;
+    }
+
+    .latest__img {
+        width: 200%;
+    }
+
+    .latest__img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .comm__latest {
+        flex-direction: column;
+    }
+
+    .latest__desc {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    .latest__img {
+        width: 100%;
+    }
+
+    .latest__img img {
+        width: 100%;
+    }
+
+    .desc__title-desc {
+        padding-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .latest__desc {
+        height: 400px;
+    }
+}

@@ -1,0 +1,134 @@
+.comm__videos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videos__stream {
+    display: flex;
+    flex-direction: column;
+    width: 729px;
+}
+
+.stream__content {
+    position: relative;
+    width: inherit;
+}
+
+.stream__content img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.stream__area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    width: 320px;
+    height: 230px;
+}
+
+.stream__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.desc__text {
+    width: 80%;
+    padding-top: 30px;
+}
+
+.stream__desc span {
+    color: rgb(127, 92, 255);
+    font-weight: 700;
+}
+
+.stream__link {
+    color: rgb(127, 92, 255);
+    width: 80%;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.stream__link p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.videos__latest {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+}
+
+.video__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 386.72px;
+}
+
+.latest__video {
+    position: relative;
+    height: 45%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.latest__video svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgba(210, 210, 210, 0.6);
+}
+
+.latest__video img{
+    width: 345px;
+}
+
+.videos__nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 3.5rem 0 1rem 0;
+}
+
+.videos__nav-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(214, 214, 214);
+}
+
+@media screen and (max-width: 1113px) {
+    .comm__videos {
+        flex-direction: column;
+    }
+
+    .videos__stream {
+        width: 100%;
+    }
+
+    .stream__content {
+        overflow: hidden;
+    }
+
+    .videos__latest {
+        width: 100%;
+    }
+
+    .video__content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

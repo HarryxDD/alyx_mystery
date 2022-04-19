@@ -12,9 +12,11 @@ const App = () => {
     <div className="app__default">
         <Navbar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
         <Sidebar toggleMenu={toggleMenu}/>
-        <div className="app__ingredient">
-          {/* <Home /> */}
-          <About />
+      
+        <div>
+
+          <Home />
+          {/* <About /> */}
           {/* <Community /> */}
 
         </div>

@@ -92,8 +92,40 @@ const partners = [
     },
 ]
 
+const social = [
+    {
+        link: 'https://www.sandbox.game/img/05_Footer/discord-circle.png',
+        image: 'https://www.sandbox.game/img/05_Footer/discord-circle.png',
+    },
+    {
+        link: 'https://www.sandbox.game/img/05_Footer/discord-circle.png',
+        image: 'https://www.sandbox.game/img/05_Footer/telegram-circle.png',
+    },
+    {
+        link: 'https://www.sandbox.game/img/05_Footer/discord-circle.png',
+        image: 'https://www.sandbox.game/img/05_Footer/twitter-circle.png',
+    },
+    {
+        link: 'https://www.sandbox.game/img/05_Footer/discord-circle.png',
+        image: 'https://www.sandbox.game/img/05_Footer/instagram-circle.png',
+    },
+    {
+        link: 'https://www.sandbox.game/img/05_Footer/discord-circle.png',
+        image: 'https://www.sandbox.game/img/05_Footer/facebook-circle.png',
+    },
+    {
+        link: 'https://www.sandbox.game/img/05_Footer/discord-circle.png',
+        image: 'https://www.sandbox.game/img/05_Footer/youtube.svg',
+    },
+    {
+        link: 'https://www.sandbox.game/img/05_Footer/discord-circle.png',
+        image: 'https://www.sandbox.game/img/05_Footer/twitch.svg',
+    },
+]
+
 export default {
     news,
     achievements,
-    partners
+    partners,
+    social
 }
