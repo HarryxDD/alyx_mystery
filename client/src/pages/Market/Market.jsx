@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { sidebarMarket } from '../../components'
+import { SidebarMarket, MakerHeader, MakerProducts } from '../../components'
 
 import './Market.css'
 
@@ -9,7 +9,12 @@ const Market = () => {
 
   return (
     <div className="app__market">
-        <sidebarMarket toggleMenu={toggleMenu}/>
+        {/* <SidebarMarket toggleMenu={toggleMenu}/> */}
+        <div className="app__market-content">
+          <MakerHeader/>
+          <MakerProducts/>
+          
+        </div>
     </div>
   )
 }

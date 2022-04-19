@@ -1,9 +1,9 @@
 import React from 'react'
 import images from '../../../constants/images';
 
-import './sidebarMarket.css'
+import './SidebarMarket.css'
 
-const sidebarMarket = ({ toggleMenu }) => {
+const SidebarMarket = ({ toggleMenu }) => {
   return (
     <div className="app__sidebar">
       <div className={"sidebar__actions" + (toggleMenu && "active")}>
@@ -122,4 +122,4 @@ const sidebarMarket = ({ toggleMenu }) => {
   )
 }
 
-export default sidebarMarket
+export default SidebarMarket

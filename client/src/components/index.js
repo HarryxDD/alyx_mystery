@@ -7,7 +7,9 @@ import Lookback from "./Home/Lookback/Lookback";
 import Achievement from "./Home/Achievement/Achievement";
 import Partner from "./Partner/Partner";
 import Contact from "./Contact/Contact";
-import sidebarMarket from "./Market/sidebarMarket/sidebarMarket";
+import SidebarMarket from "./Market/SidebarMarket/SidebarMarket";
+import MakerHeader from "./Market/MakerHeader/MakerHeader";
+import MakerProducts from "./Market/MakerProducts/MakerProducts";
 
 export {
     Navbar,
@@ -19,5 +21,7 @@ export {
     Achievement,
     Partner,
     Contact,
-    sidebarMarket,
+    SidebarMarket,
+    MakerHeader,
+    MakerProducts,
 }

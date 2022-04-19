@@ -8,7 +8,6 @@
     height: calc(100vh - 60px);
     box-shadow: inset -4px 0 8px rgb(0 0 0 / 20%);
     display: flex;
-    /* display: none; */
     flex-direction: column;
 }
 
@@ -21,7 +20,9 @@
     flex: 1 1 auto;
     overflow-y: auto;
     min-height: 0;
+    margin-left: 80px;
     z-index: 1000;
+    background: #14181d;
 }
 
 .market__sidebar h2{
@@ -232,4 +233,19 @@
 
 ::-webkit-scrollbar-track {
     background: #000;
+}
+
+
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+    .market__sidebar{
+        margin-left: 180px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
 }
