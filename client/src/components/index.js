@@ -33,6 +33,11 @@ import LatestVideos from "./Community/LatestVideos/LatestVideos";
 import Navigation from "./Community/Navigation/Navigation";
 import Social from "./Community/Social/Social";
 
+// Product_Info
+import Details from "./ProductInfo/Details/Details";
+import Overview from "./ProductInfo/Overview/Overview";
+
+
 export {
     Navbar,
     Sidebar,
@@ -59,5 +64,7 @@ export {
     LatestPost,
     LatestVideos,
     Navigation,
-    Social
+    Social,
+    Details,
+    Overview,
 }

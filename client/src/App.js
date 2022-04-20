@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Contact, Navbar, Sidebar } from './components';
-import { Home, About, Community, Survey, Market } from './pages';
+import { Home, About, Community, Survey, Market, ProductInfo, NewsBlog } from './pages';
 
 import {
   BrowserRouter as Router,
@@ -36,13 +36,16 @@ const App = () => {
         <Navbar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
         <Sidebar toggleMenu={toggleMenu}/>
          
-        <Routes>
+        {/* <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/community' element={<Community />}/>
           <Route path='/about/*' element={<About />}/>
           <Route path='/survey' element={<Survey />}/>
           <Route path='/market' element={<Market />}/>
-        </Routes>
+        </Routes> */}
+
+        {/* <ProductInfo/>
+        <NewsBlog/> */}
         <Contact />
     </Router>
   )
