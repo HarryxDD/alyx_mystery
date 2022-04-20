@@ -10,6 +10,11 @@ import Newsfeed from "./Home/Newsfeed/Newsfeed";
 import Lookback from "./Home/Lookback/Lookback";
 import Achievement from "./Home/Achievement/Achievement";
 
+// Market
+import SidebarMarket from "./Market/SidebarMarket/SidebarMarket";
+import MakerHeader from "./Market/MakerHeader/MakerHeader";
+import MakerProducts from "./Market/MakerProducts/MakerProducts";
+
 // About
 import HeaderAbout from "./About/HeaderAbout/HeaderAbout";
 import ContentAbout from "./About/ContentAbout/ContentAbout";
@@ -38,6 +43,9 @@ export {
     Achievement,
     Partner,
     Contact,
+    SidebarMarket,
+    MakerHeader,
+    MakerProducts,
     HeaderAbout,
     ContentAbout,
     TheSandBox,

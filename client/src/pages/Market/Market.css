@@ -1,0 +1,26 @@
+.app__market {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    background-color: #1b2026;
+    padding-left: 90px;
+}
+
+.app__market-content{
+    flex: 1 1;
+    width: 100%;
+    height: calc(100vh - 60px);
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1281px) {
+    .app__market{
+        padding: 70px 45px 0 !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+}
+

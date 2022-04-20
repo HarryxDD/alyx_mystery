@@ -28,7 +28,7 @@ const Sidebar = ({ toggleMenu }) => {
                 </Link>
             </li>
             <li>
-                <Link to="/">
+                <Link to="/market">
                 <div className='menu__icon menu__icon-market'>
                     <FaStore />
                 </div>
