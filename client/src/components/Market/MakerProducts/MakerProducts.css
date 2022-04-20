@@ -221,6 +221,7 @@ hr.horizontal__light{
     width: 163px;
     object-fit: contain;
     filter: brightness(1.5);
+    z-index: 1;
 }
 
 .products__card .card__bottom{
