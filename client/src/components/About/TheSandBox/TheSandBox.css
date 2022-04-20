@@ -503,6 +503,14 @@ hr.horizontal {
     height: 140px;
 }
 
+.alyx-team .page__team-member figure img {
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .member__text{
     font-family: var(--font-base);
     font-size: 1rem;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { data, images} from '../../../constants'
+import { images } from '../../../constants'
 
 import './TheSandBox.css'
 
@@ -186,31 +186,31 @@ const TheSandBox = () => {
                             <div className="alyx-team">
                                 <div className="page__team-member is__centered">
                                     <figure>
-                                        <img src="https://www.sandbox.game/img/14_Home/aboutus/001.png" alt="Cuong" />
+                                        <img src={images.cuong} alt="Cuong" />
                                     </figure>
-                                    <p className="member__text">Cuong Lee</p>
+                                    <p className="member__text">Cuong bede</p>
+                                    <p className="member__sub-text">NGU</p>
+                                </div>
+                                <div className="page__team-member is__centered">
+                                    <figure>
+                                        <img src={images.vu} alt="Vu" />
+                                    </figure>
+                                    <p className="member__text">Vu Deptrai</p>
                                     <p className="member__sub-text">CEO</p>
                                 </div>
                                 <div className="page__team-member is__centered">
                                     <figure>
-                                        <img src="https://www.sandbox.game/img/14_Home/aboutus/002.png" alt="Cuong" />
-                                    </figure>
-                                    <p className="member__text">Vu Ngu</p>
-                                    <p className="member__sub-text">COO</p>
-                                </div>
-                                <div className="page__team-member is__centered">
-                                    <figure>
-                                        <img src="https://www.sandbox.game/img/14_Home/aboutus/003.png" alt="Cuong" />
+                                        <img src={images.nhut} alt="Nhut" />
                                     </figure>
                                     <p className="member__text">Nghien Nhua</p>
-                                    <p className="member__sub-text">CFO</p>
+                                    <p className="member__sub-text">GAY</p>
                                 </div>
                                 <div className="page__team-member is__centered">
                                     <figure>
-                                        <img src="https://www.sandbox.game/img/14_Home/aboutus/004.png" alt="Cuong" />
+                                        <img src={images.dan} alt="Dan" />
                                     </figure>
                                     <p className="member__text">Ddan thees</p>
-                                    <p className="member__sub-text">CTO</p>
+                                    <p className="member__sub-text">???</p>
                                 </div>
                                 
                             </div>
