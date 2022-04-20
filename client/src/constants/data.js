@@ -84,7 +84,7 @@ const partners = [
     },
     {
         link: 'https://www.google.com/search?q=the+smurfs&oq=the+smu&aqs=edge.1.69i57j0i512l8.2480j0j1&sourceid=chrome&ie=UTF-8',
-        image: 'https://www.sandbox.game/img/14_Home/partners/smurf-logo.svg',
+        image: 'https://www.sandbox.game/img/14_Home/partners/Logo_Smurfs.png',
     },
     {
         link: 'https://www.google.com/search?q=hell%27s+kitchen&oq=hell&aqs=edge.2.69i57j0i67i433j0i67i131i433j0i67i433j0i512l4j69i60.2287j0j9&sourceid=chrome&ie=UTF-8',

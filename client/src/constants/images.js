@@ -4,11 +4,6 @@ import header from '../assets/header_img.jpg'
 import header2 from '../assets/header_img2.jpg'
 import knight from '../assets/chaos-knight.png'
 import brotherhood from '../assets/brotherhood.jpg'
-import arrowdown from '../assets/arrowdown.svg'
-import arrowup from '../assets/arrowup.svg'
-import alyxwhite from '../assets/alyxwhite.svg'
-import about_banner from '../assets/about_banner.jpg'
-import lastest_post from '../assets/lastestpost.jpg'
 import arcanine from '../assets/arcanine.png'
 import copyicon from '../assets/copy-icon.svg'
 import mint from '../assets/mint-icon.svg'
@@ -43,15 +38,10 @@ import dragoon from '../assets/magmadragoon.png'
 export default {
     alyx,
     a,
-    alyxwhite,
     header,
     header2,
     knight,
     brotherhood,
-    arrowdown,
-    arrowup,
-    about_banner,
-    lastest_post,
     arcanine,
     copyicon,
     mint,

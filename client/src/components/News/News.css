@@ -1,11 +1,12 @@
 .app__new {
     display: flex;
-    width: 31%;
+    
 }
 
 .app__new-item {
     display: flex;
     flex-direction: column;
+    width: 90%;
 }
 
 .app__new-image {
@@ -79,12 +80,12 @@
     }
 }    */
 
-@media screen and (max-width:1700px) {
+@media screen and (min-width:1700px) {
     
 }
 
 @media screen and (max-width: 680px) {
-    .app__new {
+    .app__new-item {
         width: 100%;
     }
 

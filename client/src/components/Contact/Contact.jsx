@@ -2,8 +2,6 @@ import React from 'react'
 
 import { images, data } from '../../constants'
 
-import { Link } from 'react-router-dom'
-
 import './Contact.css'
 
 const Contact = () => {
@@ -29,31 +27,19 @@ const Contact = () => {
             
             <div className='contact__info'>
                 <div className='info__pages'>
-                    <h3 className='info__title'>PAGES</h3>
+                    <h2 className='info__title'>PAGES</h2>
                     <ul className='info__list'>
-                        <li>
-                            <Link to="/">
-                                Home
-                            </Link>
-                        </li>
-                        <li><Link to="/">
-                                Game
-                            </Link></li>
-                        <li><Link to="/market">
-                                Market
-                            </Link></li>
-                        <li><Link to="/about">
-                                About
-                            </Link></li>
-                        <li><Link to="/community">
-                                Community
-                            </Link></li>
+                        <li>Home</li>
+                        <li>Game</li>
+                        <li>Market</li>
+                        <li>About</li>
+                        <li>Community</li>
                     </ul>
 
                 </div>
 
                 <div className='info__social'>
-                    <h3 className='info__title'>SOCIAL</h3>
+                    <h2 className='info__title'>SOCIAL</h2>
                     <div className='info__item'>
                         {data.social.map((social, index) => (
                             <div className='item__list' key={index}>
