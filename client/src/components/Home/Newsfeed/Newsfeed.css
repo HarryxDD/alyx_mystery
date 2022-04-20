@@ -177,8 +177,9 @@
     .season__info {
         margin-left: 0;
     }
-    
-    
 
+}
+
+@media screen and (max-width: 550px) {
     
 }

@@ -61,7 +61,7 @@ const Newsfeed = () => {
             </div>
             <div className='season__info'>
                 <p className='text__category'>ALPHA SEASON 2</p>
-                <h1 className='text__title'>Deptraicogisai</h1>
+                <h1 className='text__title'>Deptrai cogisai</h1>
                 <p className='news__text season__info-text'>
                     All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for all future seasons.
                 </p>
