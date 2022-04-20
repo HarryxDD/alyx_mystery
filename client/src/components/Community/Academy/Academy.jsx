@@ -18,11 +18,11 @@ const Academy = () => {
       </div>
       <div className='academy__news'>
 
-        <Lesson image="https://www.sandbox.game/img/27_About/gm-academy0.png" title="Welcome to The Sandbox GM Academy" desc="Learn how to Build and Share your experiences in the Metaverse using the Sandbox Game Maker."/>
+        <Lesson image="https://www.sandbox.game/img/27_About/gm-academy0.png" title="Welcome to The Alyxbox GM Academy" desc="Learn how to Build and Share your experiences in the Metaverse using The Alyxbox Game Maker."/>
 
-        <Lesson image="https://www.sandbox.game/img/27_About/gm-academy1.png" title="What is the Game Maker?" desc="The program you use to build and then publish experiences within The Sandbox Metaverse."/>
+        <Lesson image="https://www.sandbox.game/img/27_About/gm-academy1.png" title="What is the Game Maker?" desc="The program you use to build and then publish experiences within The Alyxbox Metaverse."/>
 
-        <Lesson image="https://www.sandbox.game/img/27_About/gm-academy2.png" title="What Can I Make?" desc="Some examples of experiences you can create using The Sandbox GM resources and tools."/>
+        <Lesson image="https://www.sandbox.game/img/27_About/gm-academy2.png" title="What Can I Make?" desc="Some examples of experiences you can create using The Alyxbox GM resources and tools."/>
 
       </div>
     </div>

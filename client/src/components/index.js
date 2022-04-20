@@ -18,7 +18,7 @@ import MakerProducts from "./Market/MakerProducts/MakerProducts";
 // About
 import HeaderAbout from "./About/HeaderAbout/HeaderAbout";
 import ContentAbout from "./About/ContentAbout/ContentAbout";
-import TheSandBox from "./About/TheSandBox/TheSandBox";
+import TheAlyxBox from "./About/TheAlyxBox/TheAlyxBox";
 import AboutAlyxHeader from "./About/AboutAlyx/AboutAlyxHeader/AboutAlyxHeader";
 import AboutAlyx from "./About/AboutAlyx/AboutAlyx";
 import AlyxAvailable from "./About/AboutAlyx/AlyxAvailable/AlyxAvailable";
@@ -48,7 +48,7 @@ export {
     MakerProducts,
     HeaderAbout,
     ContentAbout,
-    TheSandBox,
+    TheAlyxBox,
     AboutAlyx,
     AboutAlyxHeader,
     AlyxAvailable,

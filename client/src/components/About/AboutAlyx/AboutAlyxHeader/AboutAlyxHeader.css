@@ -62,7 +62,7 @@
 }
 
 .btn__buy{
-    background-color: #0084ff;
+    background-color: #ff6319;
     margin-right: 40px;
 }
 
@@ -73,7 +73,7 @@
 
 .btn__buy:hover,
 .btn__stake:hover{
-    background-color: #05f;
+    background-color: var(--color-main);
     border: none;
 }
 
@@ -81,7 +81,7 @@
     font-family: var(--font-base);
     font-size: 1.1rem;
     font-weight: 600;
-    color: #00ADEF;
+    color: var(--color-main);
 }
 
 .alyx__banner figure{

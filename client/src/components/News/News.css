@@ -26,7 +26,7 @@
 }
 
 .app__new-category {
-    color: #31aed8;
+    color: var(--color-main);
     font-size: 14px;
     font-weight: 600;
     align-self: center;

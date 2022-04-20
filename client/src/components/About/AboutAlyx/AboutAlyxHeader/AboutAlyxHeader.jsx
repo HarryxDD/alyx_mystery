@@ -7,8 +7,8 @@ const AboutAlyxHeader = () => {
         <div className="banner__alyx-section alyx__banner">
             <div className="info">
                 <h2 className="info__title"> ALYX </h2>
-                <h4 className="info__sub-title">SAND is the utility token used throughout The 
-                Sandbox ecosystem as the basis for transactions and interactions. It is an ERC-20 
+                <h4 className="info__sub-title">ALYX is the utility token used throughout The 
+                Alyxbox ecosystem as the basis for transactions and interactions. It is an ERC-20 
                 utility token built on the Ethereum blockchain. 
                 There is a finite supply of 3,000,000,000 SAND.</h4>
                 <div className="btn__container">

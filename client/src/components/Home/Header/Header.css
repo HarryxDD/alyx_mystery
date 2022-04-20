@@ -88,27 +88,28 @@
 }
 
 .info__button-claim {
-    background-color: #0084ff;
+    background-color: var(--color-main);
     color: white;
     font-weight: 800;
     border: none;
 }
 
 .info__button-claim:hover {
-    background-color: #0069cc;
+    background-color: #f15208;
 }
 
 .info__button-buy {
     background-color: transparent;
-    color: #0084ff;
+    color: var(--color-main);
     font-weight: 800;
-    border: 1px solid #0084ff;
+    border: 1px solid var(--color-main);
 }
 
 .info__button-buy:hover {
     color: white;
-    background-color: #0069cc;
+    background-color: #f15208;
     transition: all 0.3s ease-in-out;
+    border: 1px solid #f15208;
 }
 
 @media screen and (min-width: 2000px) {
