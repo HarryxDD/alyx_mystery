@@ -1,0 +1,39 @@
+.comm__academy {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.academy__nav {
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.3rem 0 1rem 0;
+}
+
+.academy__nav-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(214, 214, 214);
+}
+
+
+.academy__nav-readmore {
+    display: flex;
+}
+
+.academy__news {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1113px) {
+    .academy__nav {
+        width: 100%;
+    }
+
+    .academy__news {
+        flex-wrap: wrap;
+    }
+}

@@ -7,7 +7,8 @@ import brotherhood from '../assets/brotherhood.jpg'
 import arrowdown from '../assets/arrowdown.svg'
 import arrowup from '../assets/arrowup.svg'
 import alyxwhite from '../assets/alyxwhite.svg'
-
+import about_banner from '../assets/about_banner.jpg'
+import lastest_post from '../assets/lastestpost.jpg'
 
 export default {
     alyx,
@@ -19,4 +20,6 @@ export default {
     brotherhood,
     arrowdown,
     arrowup,
+    about_banner,
+    lastest_post
 };

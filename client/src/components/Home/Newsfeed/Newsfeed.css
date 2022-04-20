@@ -30,7 +30,11 @@
     color: #0175d8;
     font-weight: 700;
     cursor: pointer;
-    padding-bottom: 0.4rem;
+}
+
+.community__explore-link {
+    display: flex;
+    align-items: center;
 }
 
 .community__news {
