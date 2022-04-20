@@ -16,7 +16,7 @@ const Sidebar = ({ toggleMenu }) => {
                     <div className='menu__icon menu__icon-home'>
                         <img src={images.a} alt="" />
                     </div>        
-                    HOME
+                    HOME 
                 </li>
                 <li>
                     <div className='menu__icon menu__icon-game'>
