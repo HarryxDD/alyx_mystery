@@ -1,0 +1,152 @@
+.app__survey {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    background: #fff;
+    padding: 100px 30px 25px 30px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+.app__survey .survey__title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.app__survey .survey__title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.app__survey form .survey__user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .survey__user-details .survey__input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.survey__user-details .survey__input-box .survey__details {
+    display: block;
+    font-weight: 1000;
+    margin-bottom: 5px;
+}
+
+.survey__user-details .survey__input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.5s ease;
+}
+
+.survey__user-details .survey__input-box input:focus,
+.survey__user-details .survey__input-box input:valid {
+    border-color: #9b59b6;
+}
+
+.survey__gender-details {
+    width: 100%;
+}
+
+form .survey__gender-details .survey__gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .survey__gender-details .survey__category {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+.survey__gender-details .survey__category label {
+    display: flex;
+    align-items: center;
+}
+
+.survey__gender-details .survey__category .survey__dot {
+    height: 18px;
+    width: 18px;
+    background: #d9d9d9;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked~.survey__category label .one,
+#dot-2:checked~.survey__category label .two,
+#dot-3:checked~.survey__category label .three {
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+form .survey__button {
+    height: 45px;
+    margin: 35px 0;
+}
+
+form .survey__button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .survey__button input:hover {
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media screen and (min-width: 1281px) {
+    .app__survey {
+        padding-left: 90px;
+    }
+}
+
+@media (max-width: 584px) {
+    .app__survey {
+        max-width: 100%;
+    }
+    form .survey__user-details .survey__input-box {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .survey__gender-details .survey__category {
+        width: 100%;
+    }
+    .app__survey form .survey__user-details {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .survey__user-details::-webkit-scrollbar {
+        width: 0;
+    }
+}

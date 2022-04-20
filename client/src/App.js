@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Contact, Navbar, Sidebar, TheSandBox, AboutAlyx } from './components';
-import { Home, About, Community } from './pages';
+import { Home, About, Community, Survey } from './pages';
 
 import {
   BrowserRouter as Router,
@@ -24,6 +24,7 @@ const App = () => {
           <Route path='/' element={<Home />}/>
           <Route path='/community' element={<Community />}/>
           <Route path='/about/*' element={<About />}/>
+          <Route path='/survey' element={<Survey />}/>
         </Routes>
         <Contact />
     </Router>
