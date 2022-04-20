@@ -27,7 +27,7 @@ const Contact = () => {
             
             <div className='contact__info'>
                 <div className='info__pages'>
-                    <h2 className='info__title'>PAGES</h2>
+                    <h3 className='info__title'>PAGES</h3>
                     <ul className='info__list'>
                         <li>Home</li>
                         <li>Game</li>
@@ -39,7 +39,7 @@ const Contact = () => {
                 </div>
 
                 <div className='info__social'>
-                    <h2 className='info__title'>SOCIAL</h2>
+                    <h3 className='info__title'>SOCIAL</h3>
                     <div className='info__item'>
                         {data.social.map((social, index) => (
                             <div className='item__list' key={index}>
