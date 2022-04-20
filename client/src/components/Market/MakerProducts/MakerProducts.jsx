@@ -1,6 +1,6 @@
 import React from 'react'
 import './MakerProducts.css'
-import {BsChevronDown} from "@react-icons/all-files/bs/BsChevronDown"
+import { BsChevronDown } from "react-icons/bs/"
 
 const MakerProducts = () => {
   return (

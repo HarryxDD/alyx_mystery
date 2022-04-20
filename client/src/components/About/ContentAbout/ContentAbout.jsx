@@ -1,5 +1,4 @@
 import React from 'react'
-import images from '../../../constants'
 import './ContentAbout.css'
 import { Link } from 'react-router-dom'
 

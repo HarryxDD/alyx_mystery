@@ -1,6 +1,6 @@
 import React from 'react'
 import './MakerHeader.css'
-import { GrSearch } from "@react-icons/all-files/gr/GrSearch";
+import { GrSearch } from "react-icons/gr";
 
 const MakerHeader = () => {
   return (

@@ -2,6 +2,8 @@ import React from 'react'
 
 import { images, data } from '../../constants'
 
+import { Link } from 'react-router-dom'
+
 import './Contact.css'
 
 const Contact = () => {
@@ -29,11 +31,23 @@ const Contact = () => {
                 <div className='info__pages'>
                     <h3 className='info__title'>PAGES</h3>
                     <ul className='info__list'>
-                        <li>Home</li>
-                        <li>Game</li>
-                        <li>Market</li>
-                        <li>About</li>
-                        <li>Community</li>
+                        <li>
+                            <Link to="/">
+                                Home
+                            </Link>
+                        </li>
+                        <li><Link to="/">
+                                Game
+                            </Link></li>
+                        <li><Link to="/market">
+                                Market
+                            </Link></li>
+                        <li><Link to="/about">
+                                About
+                            </Link></li>
+                        <li><Link to="/community">
+                                Community
+                            </Link></li>
                     </ul>
 
                 </div>
