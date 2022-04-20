@@ -36,16 +36,16 @@ const App = () => {
         <Navbar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
         <Sidebar toggleMenu={toggleMenu}/>
          
-        {/* <Routes>
+        <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/community' element={<Community />}/>
           <Route path='/about/*' element={<About />}/>
           <Route path='/survey' element={<Survey />}/>
           <Route path='/market' element={<Market />}/>
-        </Routes> */}
+          <Route path='/newsblog' element={<NewsBlog />} />
+          <Route path='/productinfo' element={<ProductInfo />} />
+        </Routes>
 
-        {/* <ProductInfo/>
-        <NewsBlog/> */}
         <Contact />
     </Router>
   )

@@ -24,7 +24,7 @@ const LastestArticles = () => {
         </div>
       </div>
       <div className='articles__news'>
-
+      
         <News image="https://strapi.sandbox.game/uploads/1_s_Z5s_J_Svjh_L_Sfyq_Bwy_V4_KEQ_b9e3f4e1c0.jpg" category="ANNOUNCEMENTS" title="The Dragons of Planet Cambra — NFT Collection" date="Apr 09 - 5 min read"/>
 
         <News image="https://strapi.sandbox.game/uploads/1_75yz0_SK_Tx_R_Vgp_B_Cluxy22w_47a718ade7.jpg" category="ANNOUNCEMENTS" title="Shibuya LAND Sale" date="Apr 09 - 4 min read"/>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SidebarMarket, MakerHeader, MakerProducts } from '../../components'
-
+import { Link } from 'react-router-dom'
 import './Market.css'
 
 const Market = () => {
@@ -12,7 +12,9 @@ const Market = () => {
         {/* <SidebarMarket toggleMenu={toggleMenu}/> */}
         <div className="app__market-content">
           <MakerHeader/>
-          <MakerProducts/>
+          <Link to="/productinfo">
+            <MakerProducts/>
+          </Link>
           
         </div>
     </div>
