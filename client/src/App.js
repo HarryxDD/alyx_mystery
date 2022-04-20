@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Contact, Navbar, Sidebar } from './components';
-import { Home, About, Community, Survey, Market } from './pages';
+import { Home, About, Community, Survey, Market, NewsBlog, ProductInfo } from './pages';
 
 import {
   BrowserRouter as Router,

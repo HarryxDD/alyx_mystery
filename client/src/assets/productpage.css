@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: #1b2026;
+    line-height: normal;
+    letter-spacing: .01em;
+    font-size: 15px;
+}
+
+.zoom {
+    display: block;
+    margin: auto;
+    width: 120%;
+    transition: transform .2s;
+  }
+  
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+.product-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sticky-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: sticky;
+    top: 5%;
+    right: unset;
+    bottom: unset;
+    left: unset;
+    z-index: 2;
+    width: 51%;
+    max-width: 470px;
+}
+
+.product-data {
+    width: 100%;
+    margin-left: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color: #14181d;
+}
+
+.token-id {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    font-size: 1rem;
+    margin: 0;
+    background: white;
+    resize: horizontal;
+}
+
+#round-corner {
+    border-radius: 25px;
+    border: 2px solid #e8955a;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    
+}
+  
