@@ -6,7 +6,7 @@
     background-image: none;
     background: #7800aa;
     padding: 44px;
-    background: linear-gradient(180deg,#7800aa 0,#25035a 60%,#14181d);
+    background: linear-gradient(180deg, #ffa90c 0,var(--color-main) 60%,#14181d);
 }
 
 .banner__alyx-section{
