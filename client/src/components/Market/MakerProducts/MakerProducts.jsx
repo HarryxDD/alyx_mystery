@@ -12,11 +12,11 @@ const MakerProducts = () => {
                 <p>Sort by</p>
               </div>
               <div className="sort__by-down page__relative">
-                <div className="list__drop-btn square">
+                <div className="list__drop-btn square__list-items">
                   <p> Newest  </p>
                   <p className="list__icon-up"><BsChevronDown fontSize="1.3rem" strokeWidth="2"/></p>
                 </div>
-                <div className="list__drop square">
+                <div className="list__drop square__list-items">
                   <ul className="list__drop-list">
                     <li> Name (A-Z) </li>
                     <li> Name (Z-A) </li>
@@ -74,7 +74,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -115,7 +115,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -197,7 +197,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -245,7 +245,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -286,7 +286,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -327,7 +327,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -368,7 +368,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -420,7 +420,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -461,7 +461,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -502,7 +502,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
@@ -543,7 +543,7 @@ const MakerProducts = () => {
                       </div>
                   </div>
                 </a>
-                <div className="add__cart">
+                <div className="add__cart-img">
                   <div className="add__cart-icon"></div>
                 </div>
               </div>
