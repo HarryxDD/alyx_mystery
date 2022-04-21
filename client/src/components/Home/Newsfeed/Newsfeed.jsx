@@ -1,9 +1,8 @@
 import React from 'react'
 import { News } from '../../index'
 import { data } from '../../../constants'
-import { MdDoubleArrow } from 'react-icons/md'
 
-import { Link } from 'react-router-dom'
+import { MdDoubleArrow } from 'react-icons/md'
 
 import './Newsfeed.css'
 
@@ -17,12 +16,8 @@ const Newsfeed = () => {
                     <h1 className='text__title'>WHAT'S NEW</h1>
                 </div>
                 <div className='community__explore'>
-                    <Link to="/community">
-                    <div className='community__explore-link'>
-                        <p>Read more</p>
-                        <MdDoubleArrow />
-                    </div>
-                    </Link>
+                    <p>Read more</p>
+                    <MdDoubleArrow />
                 </div>
             </div>
             <div className='community__news'>
@@ -61,7 +56,7 @@ const Newsfeed = () => {
             </div>
             <div className='season__info'>
                 <p className='text__category'>ALPHA SEASON 2</p>
-                <h1 className='text__title'>Deptrai cogisai</h1>
+                <h1 className='text__title'>Deptraicogisai</h1>
                 <p className='news__text season__info-text'>
                     All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for all future seasons.
                 </p>

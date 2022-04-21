@@ -11,9 +11,9 @@ const NewsBlog = () => {
                 <div className='article__share'>
                     <p>SHARE</p>
                     <div>
-                        <a><img src={images.telegram_clear}/></a>
-                        <a><img src={images.twitter_clear}/></a>
-                        <a><img src={images.facebook_clear}/></a>
+                        <a><img src='https://www.sandbox.game/img/Icons/telegram.svg'/></a>
+                        <a><img src='https://www.sandbox.game/img/Icons/twitter.svg'/></a>
+                        <a><img src='https://www.sandbox.game/img/Icons/facebook.svg'/></a>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ const NewsBlog = () => {
 
                             <br/>
 
-                            <p><img src={images.ceo} height="394" with="700" className='article__img'/></p>
+                            <p><img src='https://i.kym-cdn.com/entries/icons/original/000/030/923/cover11.jpg' height="394" with="700" className='article__img'/></p>
 
                             <br/>
                             <br/>
@@ -74,7 +74,7 @@ const NewsBlog = () => {
 
                             <br/>
 
-                            <img src={images.sussy} height="auto" width="700" className='article__img'/>
+                            <img src='https://i.pinimg.com/originals/10/c0/e5/10c0e527c5990820797c1dfeb3f438fe.gif' height="auto" width="700" className='article__img'/>
 
                             <br/>
 
@@ -112,16 +112,16 @@ const NewsBlog = () => {
                                             <hr className='line'/>
 
                                             <div className='social__links'>
-                                                <a><img src={images.telegram_clear}/></a>
-                                                <a><img src={images.twitter_clear}/></a>
-                                                <a><img src={images.facebook_clear}/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/telegram.svg'/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/twitter.svg'/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/facebook.svg'/></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className='related__item'>
-                                    <img src={images.amogus_meme}/>
+                                    <img src='https://i.pinimg.com/originals/e3/a9/51/e3a9513e8af4c3f139d1adb44e595d27.jpg'/>
 
                                     <div className='related__item__details'>
                                         <p className="category">Announcements</p>
@@ -133,16 +133,16 @@ const NewsBlog = () => {
                                             <hr className='line'/>
 
                                             <div className='social__links'>
-                                                <a><img src={images.telegram_clear}/></a>
-                                                <a><img src={images.twitter_clear}/></a>
-                                                <a><img src={images.facebook_clear}/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/telegram.svg'/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/twitter.svg'/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/facebook.svg'/></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className='related__item'>
-                                    <img src={images.rick}/>
+                                    <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Rick_Astley_Tivoli_Gardens.jpg/1280px-Rick_Astley_Tivoli_Gardens.jpg'/>
 
                                     <div className='related__item__details'>
                                         <p className="category">Announcements</p>
@@ -154,9 +154,9 @@ const NewsBlog = () => {
                                             <hr className='line'/>
 
                                             <div className='social__links'>
-                                                <a><img src={images.telegram_clear}/></a>
-                                                <a><img src={images.twitter_clear}/></a>
-                                                <a><img src={images.facebook_clear}/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/telegram.svg'/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/twitter.svg'/></a>
+                                            <a><img src='https://www.sandbox.game/img/Icons/facebook.svg'/></a>
                                             </div>
                                         </div>
                                     </div>
@@ -169,7 +169,7 @@ const NewsBlog = () => {
                 <div className='article__right'>
                     
                         <div className='article__newsletter'>
-                            <div className='article__email'><img src={images.email}/></div>
+                            <div className='article__email'><img src='https://www.sandbox.game/img/Icons/envelope-regular.png'/></div>
 
                             <p className="newsletter__title">Newsletter</p>
 

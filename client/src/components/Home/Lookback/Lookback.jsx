@@ -1,7 +1,6 @@
 import React from 'react'
 import { Achievement } from '../../index'
 import { images, data } from '../../../constants'
-import { Link } from 'react-router-dom'
 
 import './Lookback.css'
 
@@ -34,11 +33,9 @@ const Lookback = () => {
                 <h1 className='text__title'>SEASON 3</h1>
                 <p className='coming__title-text'>Stay tuned for the Season 3 date announcement.</p>
                 <div className='coming__title-button'>
-                    <Link to="/survey">
-                        <button>
-                            Register for Season 3
-                        </button>
-                    </Link>
+                    <button>
+                        Register for Season 3
+                    </button>
                 </div>
                 
             </div>

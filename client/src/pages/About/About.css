@@ -1,21 +1,7 @@
 .app__about {
     display: flex;
     flex-direction: column;
-    position: relative;
-    /* top: 20px; */
-}
-
-.app__about-header
-{
-    /* position: relative; */
-}
-.app__about-content
-{
-    /* position: absolute; */
-}
-.app__about-sandbox
-{
-
+    padding-top: 70px;
 }
 
 @media screen and (min-width: 1281px) {

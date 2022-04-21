@@ -30,11 +30,7 @@
     color: #0175d8;
     font-weight: 700;
     cursor: pointer;
-}
-
-.community__explore-link {
-    display: flex;
-    align-items: center;
+    padding-bottom: 0.4rem;
 }
 
 .community__news {
@@ -177,9 +173,8 @@
     .season__info {
         margin-left: 0;
     }
+    
+    
 
-}
-
-@media screen and (max-width: 550px) {
     
 }

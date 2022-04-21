@@ -105,8 +105,8 @@
 }
 
 .pokeball {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
 }
 
 .type__container p {
@@ -182,7 +182,7 @@
     padding-left: 10px;
     padding-right: 70px;
     height: 100%;
-    margin: auto;
+    margin: 0 45px;
     border-right: 1px solid #2f3740;
 }
 
