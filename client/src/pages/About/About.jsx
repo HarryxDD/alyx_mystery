@@ -1,5 +1,5 @@
 import React from 'react'
-import { HeaderAbout, ContentAbout, AboutAlyx, TheSandBox } from '../../components'
+import { HeaderAbout, ContentAbout, AboutAlyx, TheAlyxBox } from '../../components'
 
 import {
   Routes,
@@ -15,7 +15,7 @@ const About = () => {
           <HeaderAbout/>
           <ContentAbout/>
           <Routes>
-            <Route exact path='/' element={<TheSandBox />}/>
+            <Route exact path='/' element={<TheAlyxBox />}/>
             <Route  path='/coin' element={<AboutAlyx />}/>
           </Routes>            
       </div>

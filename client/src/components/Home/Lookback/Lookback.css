@@ -1,5 +1,5 @@
 .text__category {
-    color: #039efa;
+    color: var(--color-main);
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -12,7 +12,7 @@
 
 
 .app__lookback {
-    background-image: linear-gradient(rgb(19, 38, 86), black);
+    background-image: linear-gradient(rgb(175 68 21), black);
     font-family: var(--font-base);
 }
 
@@ -58,8 +58,8 @@
 }
 
 .coming__title-button button:hover {
-    border: 2px solid #0069cc;
-    background-color: #0069cc;
+    border: 2px solid var(--color-main);
+    background-color: var(--color-main);
 }
 
 .coming__img {

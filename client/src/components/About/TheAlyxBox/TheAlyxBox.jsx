@@ -1,9 +1,9 @@
 import React from 'react'
 import { images } from '../../../constants'
 
-import './TheSandBox.css'
+import './TheAlyxBox.css'
 
-const TheSandBox = () => {
+const TheAlyxBox = () => {
     return (
         <div className="home__sandbox page__main">
             <div className="static-page home__content-container">
@@ -222,4 +222,4 @@ const TheSandBox = () => {
     )
 }
 
-export default TheSandBox
+export default TheAlyxBox

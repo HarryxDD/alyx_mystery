@@ -1,5 +1,5 @@
 .text__category {
-    color: #039efa;
+    color: var(--color-main);
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 0.5rem;
@@ -27,7 +27,7 @@
 .community__explore {
     display: flex;
     align-items: flex-end;
-    color: #0175d8;
+    color: var(--color-main);
     font-weight: 700;
     cursor: pointer;
 }
@@ -77,8 +77,8 @@
 }
 
 .survey__btn button:hover {
-    border: 2px solid #0069cc;
-    background-color: #0069cc;
+    border: 2px solid var(--color-main);
+    background-color: var(--color-main);
 }
 
 .survey__img {

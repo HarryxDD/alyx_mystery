@@ -10,7 +10,7 @@ const AlyxContent = () => {
                     <hr className="border__vertical"></hr>
                     <div className="box__content">
                         <h2>The Alyx</h2>
-                        <p>The Sandbox is a virtual Metaverse built on the Ethereum blockchain,
+                        <p>The Alyxbox is a virtual Metaverse built on the Ethereum blockchain,
                              where players can build, own, and monetize their gaming experience</p>
                     </div>
                 </div>
@@ -19,13 +19,13 @@ const AlyxContent = () => {
                     <hr className="border__vertical"></hr>
                     <div className="box__content">
                         <h2>Alyx</h2>
-                        <p>The SAND token is an ERC-20 utility token that is used for value 
+                        <p>The ALYX token is an ERC-20 utility token that is used for value 
                             transfers as well as staking and governance.</p>
                     </div>
                 </div>
             </div>
 
-            <h2 className="current__pros"> Current products on The Sandbox platform include: </h2>
+            <h2 className="current__pros"> Current products on The Alyxbox platform include: </h2>
             
             <div>
             <section className="home__section-container sandbox mg__left">
@@ -99,10 +99,10 @@ const AlyxContent = () => {
                 </div>
                 <div className="paragraphs1 whatisAlyxP">
                     <p>
-                        A LAND is a digital piece of real estate in The Sandbox metaverse that players can buy to build experiences on. Once a player owns a piece of LAND, they will be able to populate it with games and ASSETS. Multiple LANDS can be combined to form an ESTATE.<br/>
-                        A total of 166,464 LANDS will be available, contained in a map that will form The Sandbox metaverse.<br/>
+                        A LAND is a digital piece of real estate in The Alyxbox metaverse that players can buy to build experiences on. Once a player owns a piece of LAND, they will be able to populate it with games and ASSETS. Multiple LANDS can be combined to form an ESTATE.<br/>
+                        A total of 166,464 LANDS will be available, contained in a map that will form The Alyxbox metaverse.<br/>
                         GEMS and CATALYSTS define the tier, scarcity, and attributes of ASSETS. CATALYSTS add empty sockets to the NFTs that can be filled with GEMS. The higher the quality of the CATALYST, the more sockets your ASSET will have.<br/>
-                        Users can monetize their time on the platform, by keeping 95% of the SAND revenue by:<br/>
+                        Users can monetize their time on the platform, by keeping 95% of the ALYX revenue by:<br/>
                     </p>
                 </div>
                 <div className="items__container">
@@ -132,9 +132,9 @@ const AlyxContent = () => {
                 </div>
                 <div className="paragraphs1">
                     <p>
-                    Through the use of ERC-1776, The Sandbox allows platform users to initiate transactions on the Ethereum blockchain while 
+                    Through the use of ERC-1776, The Alyxbox allows platform users to initiate transactions on the Ethereum blockchain while 
                     transaction gas fees are paid by the platform, optimizing overall user experience.
-                    50% of all SAND transactions collected from LAND sales, 
+                    50% of all ALYX transactions collected from LAND sales, 
                     Premium NFT sales, transaction fees and subscription services goes to the Foundation
                     </p>
                 </div>
@@ -156,7 +156,7 @@ const AlyxContent = () => {
                                 <h2>   
                                     Managing the Game Makers Fund and Creators Fund, 
                                     offering grants to incentivize high quality content and 
-                                    game production in The Sandbox.
+                                    game production in The Alyxbox.
                                 </h2>
                             </small>
                         </div>
@@ -186,7 +186,7 @@ const AlyxContent = () => {
                         <div className="row">
                             <small>
                                 <h2>   
-                                Supporting local community managers to grow awareness around the globe about The Sandbox, NFTs and blockchain gaming via our Community Rewards and Ambassadors program https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24
+                                Supporting local community managers to grow awareness around the globe about The Alyxbox, NFTs and blockchain gaming via our Community Rewards and Ambassadors program https://medium.com/sandbox-game/the-sandbox-ambassador-program-4f00bb5c9c24
                                 </h2>
                             </small>
                         </div>
@@ -196,7 +196,7 @@ const AlyxContent = () => {
                         <div className="row">
                             <small>
                                 <h2>   
-                                Sponsoring prizes for the various contests organized by The Sandbox team (VoxEdit Contests and Game Jams) to stimulate the creativity of users around the world and get them to engage with the tools of our platform.
+                                Sponsoring prizes for the various contests organized by The Alyxbox team (VoxEdit Contests and Game Jams) to stimulate the creativity of users around the world and get them to engage with the tools of our platform.
                                 </h2>
                             </small>
                         </div>
@@ -206,7 +206,7 @@ const AlyxContent = () => {
                         <div className="row">
                             <small>
                                 <h2>   
-                                Supporting play-to-earn tournaments and cross-gaming with activities that encourage the broader adoption of SAND.
+                                Supporting play-to-earn tournaments and cross-gaming with activities that encourage the broader adoption of ALYX.
                                 </h2>
                             </small>
                         </div>

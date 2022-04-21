@@ -39,8 +39,9 @@
 
 .tab__menu-link:hover{
     color: #fff;
-    border-bottom: 5px solid rgb(0, 145, 241);
+    border-bottom: 5px solid var(--color-main);
 }
+
 
 @media screen and (min-width: 2000px) {
 

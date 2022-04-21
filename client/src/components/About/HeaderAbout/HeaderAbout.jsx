@@ -15,8 +15,8 @@ const Header_About = () => {
                         <p>WELCOME</p>
                     </div>
                     <div className="app__header-dec">
-                        <h1>THE SANDBOX</h1>
-                        <p>The Sandbox is a community-driven platform where creators can 
+                        <h1>THE ALYX </h1>
+                        <p>The Alyx is a community-driven platform where creators can 
                             monetize voxel ASSETS and gaming experiences on the blockchain</p>
                     </div>
                 </div>
