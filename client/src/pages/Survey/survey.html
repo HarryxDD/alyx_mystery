@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>ALYX's Client Survey Form</h1>
+  
+    <form id="form">
+ 
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+ 
+            <input type="text"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+            <input type="email"
+                   id="email"
+                   placeholder="Enter your email" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+ 
+            <input type="text"
+                   id="age"
+                   placeholder="Enter your age"/>
+        </div>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+             
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">
+                    Professional
+                </option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+  
+        <div class="form-control">
+            <label>
+                Would you recommed ALYX
+                to a friend?
+            </label>
+ 
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       name="recommend"
+                       value="yes">Yes
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       name="recommend"
+                       value="no">No
+            </label>
+            <label for="recommed-3">
+                <input type="radio"
+                       id="recommed-3"
+                       name="recommend"
+                       value="maybe">Maybe
+            </label>
+        </div>
+  
+        <div class="form-control" id="itemForm">
+            <label>Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+
+            <label for="inp-1" class="item">
+                <input type="checkbox"
+                       name="inp"
+                       value="C">C</input></label>
+            <label for="inp-2" class="item">
+                <input type="checkbox"
+                       name="inp"
+                       value="C++">C++</input></label>
+            <label for="inp-3" class="item">
+                <input type="checkbox"
+                       name="inp"
+                       value="C#">C#</input></label>
+            <label for="inp-4" class="item">
+                <input type="checkbox"
+                       name="inp"
+                       value="Java">Java</input></label>
+            <label for="inp-5" class="item">
+                <input type="checkbox"
+                       name="inp"
+                       value="Python">Python</input></label>
+            <label for="inp-6" class="item">
+                <input type="checkbox"
+                       name="inp"
+                       value="JavaScript">JavaScript</input></label>
+        </div>
+  
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+ 
+            <input type="text"
+                   id="comment"
+                   placeholder="Enter your comment here"/>
+        </div>
+  
+        <a><button type="submit" value="submit" id="submit">Submit</button></a>
+    </form>
+</body>
+
+<Script src="survey.js"></Script>
+</html>
