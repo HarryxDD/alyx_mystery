@@ -563,6 +563,7 @@
 @media (max-width: 1305px) {
 
     .product__details {
+        padding-top: 50px;
         width: calc(100% - 60px);
         margin: auto;
         flex-direction: column;
@@ -574,6 +575,7 @@
 @media (max-width: 767px) {
 
     .product__details {
+        padding-top: 10px;
         flex-direction: column;
         align-items: flex-start;
         order: 1;
