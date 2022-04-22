@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #14181d;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1 { 
+    color: #fff;
+}
+
+form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #0084ff;
+    border: 2px solid #0084ff;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 21px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069cc;
+    transition: all 0.3s ease-in-out;
+}

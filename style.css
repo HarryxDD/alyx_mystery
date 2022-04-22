@@ -1,22 +1,35 @@
-.app__survey {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin-left: 10%;
-    background: #fff;
-    padding: 100px 30px 25px 30px;
-    border-radius: 5px;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
 
-.app__survey .survey__title {
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title {
     font-size: 25px;
     font-weight: 500;
     position: relative;
 }
 
-.app__survey .survey__title::before {
+.container .title::before {
     content: '';
     position: absolute;
     left: 0;
@@ -26,25 +39,25 @@
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
-.app__survey form .survey__user-details {
+.container form .user-details {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
 }
 
-form .survey__user-details .survey__input-box {
+form .user-details .input-box {
     margin-bottom: 15px;
     width: calc(100% / 2 - 20px);
 }
 
-.survey__user-details .survey__input-box .survey__details {
+.user-details .input-box .details {
     display: block;
     font-weight: 1000;
     margin-bottom: 5px;
 }
 
-.survey__user-details .survey__input-box input {
+.user-details .input-box input {
     height: 45px;
     width: 100%;
     outline: none;
@@ -56,33 +69,33 @@ form .survey__user-details .survey__input-box {
     transition: all 0.5s ease;
 }
 
-.survey__user-details .survey__input-box input:focus,
-.survey__user-details .survey__input-box input:valid {
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
     border-color: #9b59b6;
 }
 
-.survey__gender-details {
+.gender-details {
     width: 100%;
 }
 
-form .survey__gender-details .survey__gender-title {
+form .gender-details .gender-title {
     font-size: 20px;
     font-weight: 500;
 }
 
-form .survey__gender-details .survey__category {
+form .gender-details .category {
     display: flex;
     width: 80%;
     margin: 14px 0;
     justify-content: space-between;
 }
 
-.survey__gender-details .survey__category label {
+.gender-details .category label {
     display: flex;
     align-items: center;
 }
 
-.survey__gender-details .survey__category .survey__dot {
+.gender-details .category .dot {
     height: 18px;
     width: 18px;
     background: #d9d9d9;
@@ -92,9 +105,9 @@ form .survey__gender-details .survey__category {
     transition: all 0.3s ease;
 }
 
-#dot-1:checked~.survey__category label .one,
-#dot-2:checked~.survey__category label .two,
-#dot-3:checked~.survey__category label .three {
+#dot-1:checked~.category label .one,
+#dot-2:checked~.category label .two,
+#dot-3:checked~.category label .three {
     border-color: #d9d9d9;
     background: #9b59b6;
 }
@@ -103,12 +116,12 @@ form input[type="radio"] {
     display: none;
 }
 
-form .survey__button {
+form .button {
     height: 45px;
     margin: 35px 0;
 }
 
-form .survey__button input {
+form .button input {
     height: 100%;
     width: 100%;
     outline: none;
@@ -121,32 +134,26 @@ form .survey__button input {
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
-form .survey__button input:hover {
+form .button input:hover {
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
-@media screen and (min-width: 1281px) {
-    .app__survey {
-        padding-left: 90px;
-    }
-}
-
 @media (max-width: 584px) {
-    .app__survey {
+    .container {
         max-width: 100%;
     }
-    form .survey__user-details .survey__input-box {
+    form .user-details .input-box {
         margin-bottom: 15px;
         width: 100%;
     }
-    form .survey__gender-details .survey__category {
+    form .gender-details .category {
         width: 100%;
     }
-    .app__survey form .survey__user-details {
+    .container form .user-details {
         max-height: 300px;
         overflow-y: scroll;
     }
-    .survey__user-details::-webkit-scrollbar {
+    .user-details::-webkit-scrollbar {
         width: 0;
     }
 }
