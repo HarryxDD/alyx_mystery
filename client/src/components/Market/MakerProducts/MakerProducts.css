@@ -1,17 +1,33 @@
-.maker__products{
+.common__item {
+    background: linear-gradient(180deg, rgb(174, 184, 177) 0, rgb(82, 82, 82))!important;
+}
+
+.rare__item {
+    background: linear-gradient(180deg, rgb(174, 184, 177) -10%, rgb(45, 179, 27))!important;
+}
+
+.elite__item {
+    background: linear-gradient(180deg, rgb(174, 184, 177) -10%, rgb(245, 112, 3))!important;
+}
+
+.legend__item {
+    background: linear-gradient(180deg, rgb(174, 184, 177) -10%, rgb(247, 11, 11))!important;
+}
+
+.maker__products {
     max-width: 1070px;
     min-height: 50vh;
     margin: 70px auto 0;
 }
 
-.maker__products-fit{
+.maker__products-fit {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
     align-items: stretch;
 }
 
-.maker__products .filter__options{
+.maker__products .filter__options {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -19,7 +35,7 @@
     height: 40px;
 }
 
-.sort__by-filter{
+.sort__by-filter {
     align-items: flex-start;
     top: 0;
     display: flex;
@@ -32,7 +48,7 @@
     z-index: 2;
 }
 
-.sort__by-filter .sort__by-tittle{
+.sort__by-filter .sort__by-tittle {
     height: 40px;
     width: -webkit-max-content;
     width: max-content;
@@ -42,7 +58,7 @@
     align-items: center;
 }
 
-.sort__by-filter .sort__by-tittle p{
+.sort__by-filter .sort__by-tittle p {
     margin-right: 10px;
     margin-top: -10px;
     font-size: 0.9rem;
@@ -52,13 +68,13 @@
     text-align: center;
 }
 
-.sort__by-filter .sort__by-down{
+.sort__by-filter .sort__by-down {
     width: 230px;
     align-items: center;
     cursor: pointer;
 }
 
-.list__drop-btn{
+.list__drop-btn {
     max-width: 200px;
     height: 35px;
     border-radius: 5px;
@@ -75,12 +91,12 @@
     font-weight: 600;
 }
 
-.list__drop-btn .square__list-items{
+.list__drop-btn .square__list-items {
     height: 40px;
     border-radius: 10px;
 }
 
-.list__drop{
+.list__drop {
     width: 200px;
     height: auto;
     padding: 0;
@@ -93,20 +109,19 @@
     transition-property: all;
     transition-duration: .25s;
     transition-timing-function: ease;
-    
 }
 
-.sort__by-down:hover .list__drop li{
+.sort__by-down:hover .list__drop li {
     display: block;
 }
 
-.list__drop ul{
+.list__drop ul {
     list-style-type: none;
     list-style-position: outside;
     list-style-image: none;
 }
 
-.list__drop ul li{
+.list__drop ul li {
     padding: 10px 14px;
     font-size: 1.2rem;
     font-weight: 400;
@@ -123,13 +138,15 @@
     display: none;
 }
 
+
 /* shop items */
-.products__filter{
+
+.products__filter {
     padding-bottom: 30px!important;
     padding-top: 15px!important;
 }
 
-.marker__products-container .products__tittle{
+.marker__products-container .products__tittle {
     font-size: 21px;
     margin-bottom: 15px!important;
     margin-top: 20px!important;
@@ -137,44 +154,45 @@
     font-family: var(--font-base);
 }
 
-hr.horizontal__light{
+hr.horizontal__light {
     background-color: #505861;
     width: 100%;
     height: 1px;
 }
 
-.count__products{
+.count__products {
     margin-top: 10px!important;
 }
 
-.products__filter p{
+.products__filter p {
     font-size: 15px;
     line-height: 20px;
     color: #bdc0c2;
     font-family: var(--font-base);
 }
 
+
 /*items*/
 
-.mt__wrapper{
+.mt__wrapper {
     margin-top: 20px!important;
 }
 
-.marker__products-container .products__wrapper{
+.marker__products-container .products__wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill,236px);
+    grid-template-columns: repeat(auto-fill, 236px);
     grid-gap: 34px;
     gap: 34px;
-    justify-content: center;  
+    justify-content: center;
 }
 
-.products__card{
+.products__card {
     position: relative;
     width: 100%;
     height: 319px;
     border-radius: 10px;
-    background: linear-gradient(180deg,var(--color-main) 0, #ef4c00);
+    background: linear-gradient(180deg, var(--color-main) 0, #ef4c00);
     box-shadow: 0 0 10px rgb(0 0 0 / 20%);
     padding: 5px;
     cursor: pointer;
@@ -186,11 +204,10 @@ hr.horizontal__light{
 }
 
 .products__card .products__card-hover.rare {
-    background: linear-gradient(180deg,#00adef 0,#0084ff);
+    background: linear-gradient(180deg, #00adef 0, #0084ff);
 }
 
-
-.products__card .products__card-hover{
+.products__card .products__card-hover {
     position: absolute;
     top: -2px;
     right: -2px;
@@ -202,12 +219,12 @@ hr.horizontal__light{
     transition: all .1s ease-in-out;
 }
 
-.products__card .card__top{
+.products__card .card__top {
     overflow: hidden;
     flex: 1 1 0;
 }
 
-.products__card .card__top figure{
+.products__card .card__top figure {
     flex: 1 1 0;
     margin-top: 5px;
     display: flex;
@@ -216,7 +233,7 @@ hr.horizontal__light{
     align-items: center;
 }
 
-.products__card .card__top figure .card__preview{
+.products__card .card__top figure .card__preview {
     height: 200px;
     width: 163px;
     object-fit: contain;
@@ -224,11 +241,11 @@ hr.horizontal__light{
     z-index: 1;
 }
 
-.products__card .card__bottom{
+.products__card .card__bottom {
     padding: 15px 10px 10px;
 }
 
-.card__bottom-tittle{
+.card__bottom-tittle {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -236,7 +253,7 @@ hr.horizontal__light{
     align-items: stretch;
 }
 
-.products__card .card__bottom .card__name{
+.products__card .card__bottom .card__name {
     font-size: 1.2rem;
     font-weight: 500;
     line-height: 22px;
@@ -250,7 +267,7 @@ hr.horizontal__light{
     /* margin-top: -110px; */
 }
 
-.products__card .card__bottom-data{
+.products__card .card__bottom-data {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -258,7 +275,7 @@ hr.horizontal__light{
     align-items: flex-start;
 }
 
-.products__card .card__bottom-data .supply__count{
+.products__card .card__bottom-data .supply__count {
     font-size: 14px;
     line-height: 18px;
     font-family: var(--font-base);
@@ -266,17 +283,17 @@ hr.horizontal__light{
     text-align: center;
 }
 
-.products__card .card__bottom-data .supply__count-text{
+.products__card .card__bottom-data .supply__count-text {
     color: #bdc0c2;
     font-family: var(--font-base);
     font-weight: 400!important;
 }
 
-.mt-2{
+.mt-2 {
     margin-top: 10px!important;
 }
 
-.products__card .card__bottom-data .card__price{
+.products__card .card__bottom-data .card__price {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -284,7 +301,7 @@ hr.horizontal__light{
     width: 100%;
 }
 
-.card__price-igr{
+.card__price-igr {
     grid-gap: 10px;
     gap: 10px;
     display: flex;
@@ -293,12 +310,12 @@ hr.horizontal__light{
     align-items: stretch;
 }
 
-.products__card .card__bottom-data .card__price img{
+.products__card .card__bottom-data .card__price img {
     width: 22px;
     height: 22px;
 }
 
-.products__card .card__bottom-data .card__price .price__number{
+.products__card .card__bottom-data .card__price .price__number {
     font-size: 18px;
     line-height: 22px;
     font-family: var(--font-base);
@@ -306,7 +323,7 @@ hr.horizontal__light{
     text-align: left;
 }
 
-.price__number-money{
+.price__number-money {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -314,8 +331,7 @@ hr.horizontal__light{
     align-items: center;
 }
 
-.products__card .card__bottom-data .card__price .price__number-usd
-{
+.products__card .card__bottom-data .card__price .price__number-usd {
     font-size: 14px;
     line-height: 22px;
     font-family: var(--font-base);
@@ -323,7 +339,7 @@ hr.horizontal__light{
     text-align: left;
 }
 
-.products__card .card__bottom-data .card__price .price__usd{
+.products__card .card__bottom-data .card__price .price__usd {
     margin-left: 5px;
     font-size: 14px;
     line-height: 22px;
@@ -332,7 +348,7 @@ hr.horizontal__light{
     text-align: left;
 }
 
-.add__cart-img{
+.add__cart-img {
     position: absolute;
     top: unset;
     right: 15px;
@@ -350,22 +366,15 @@ hr.horizontal__light{
     border-radius: 20px;
 }
 
-.add__cart-img .add__cart-icon{
+.add__cart-img .add__cart-icon {
     width: 40px;
     height: 40px;
     background-color: #a0a4a7;
     -webkit-mask: url(https://www.sandbox.game/img/16_Presale/shopping-cart.svg) no-repeat center;
 }
 
+@media screen and (min-width: 2000px) {}
 
-@media screen and (min-width: 2000px) {
+@media screen and (max-width: 1280px) {}
 
-}
-
-@media screen and (max-width: 1280px) {
-    
-}
-
-@media screen and (max-width: 650px) {
-    
-}
+@media screen and (max-width: 650px) {}
