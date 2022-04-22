@@ -105,8 +105,8 @@
 }
 
 .pokeball {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
 }
 
 .type__container p {
@@ -182,13 +182,13 @@
     padding-left: 10px;
     padding-right: 70px;
     height: 100%;
-    margin: auto;
+    margin: 0 45px;
     border-right: 1px solid #2f3740;
 }
 
 .rarity__box h5 {
     margin-top: 10px;
-    color: #0084ff;
+    color: var(--color-main);
     font-size: 20px;
 }
 
@@ -248,6 +248,7 @@
     flex-direction: row;
     align-items: flex-start;
     border: solid;
+    width: 100%;
     border-color: #2f3740;
     border-radius: 10px;
     border-width: 1px;
@@ -277,12 +278,12 @@
 }
 
 .user__profile {
-    color: #0084ff;
+    color: var(--color-main);
     font-weight: bold;
 }
 
 .user__profile:hover {
-    color: #0069cc;
+    color: #ff7300;
     transition: ease-in-out;
 }
 
@@ -304,7 +305,7 @@
     margin-top: 30px;
     display: grid;
     grid-template-columns: 300px 300px;
-    justify-content: flex-start;
+    justify-content: center;
     grid-gap: 28px;
     gap: 28px;
 }
@@ -364,7 +365,7 @@
     background: transparent;
     z-index: 1;
     transition: all .1s ease-in-out;
-    background: #0084ff;
+    background: var(--color-main);
 }
 
 .other__products {
@@ -443,7 +444,7 @@
 .holo {
     text-transform: capitalize;
     margin-bottom: 5px!important;
-    color: #0084ff!important;
+    color: var(--color-main)!important;
     font-weight: 400!important;
 }
 
@@ -516,7 +517,7 @@
 }
 
 .card__info__right h2 {
-    color: #0084FF;
+    color: var(--color-main);
 }
 
 
@@ -560,9 +561,10 @@
     }
 }
 
-@media (max-width: 1305px) {
+@media screen and (max-width: 1305px) {
 
     .product__details {
+        padding-top: 50px;
         width: calc(100% - 60px);
         margin: auto;
         flex-direction: column;
@@ -574,6 +576,7 @@
 @media (max-width: 767px) {
 
     .product__details {
+        padding-top: 10px;
         flex-direction: column;
         align-items: flex-start;
         order: 1;

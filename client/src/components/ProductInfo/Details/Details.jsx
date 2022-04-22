@@ -12,23 +12,23 @@ const Details = () => {
             <div className='product__token__id'>
                 <p className='token__id'>Token ID: 6942...2904</p>
 
-                <a href='https://youtu.be/m9sGLeR7R_s' target='_blank' className='copy__icon'><img src={images.copyicon}></img></a>
+                <a href='https://youtu.be/m9sGLeR7R_s' target='_blank' className='copy__icon'><img src='https://www.sandbox.game/img/00_General/copy-link-icon.svg'></img></a>
             </div>
 
             <div className='product__cond'>
-                <img src={images.mint}></img>
+                <img src='https://www.sandbox.game/img/07_Asset_Info/Icon_mint.svg'></img>
                 
                 <p>200 minted</p>
 
                 <div className='vertical__line'></div>
 
-                <img src={images.tag} className='info__icon'></img>
+                <img src='https://www.sandbox.game/img/07_Asset_Info/Icon_tag.svg' className='info__icon'></img>
 
                 <p>100 of 100 for sale</p>
 
                 <div className='vertical__line'></div>
 
-                <img src={images.owner} className='info__icon'></img>
+                <img src='https://www.sandbox.game/img/07_Asset_Info/Icon-owners.svg' className='info__icon'></img>
 
                 <p>3 owners</p>
             </div>
@@ -42,7 +42,7 @@ const Details = () => {
                 <h5>TYPE</h5>
 
                 <div className='type__container'>
-                  <div><img src={images.pokeball} className='pokeball'></img></div>
+                  <div><img src='https://archives.bulbagarden.net/media/upload/9/93/Bag_Pok%C3%A9_Ball_Sprite.png' className='pokeball'></img></div>
 
                   <p>Pokemon</p>
                 </div>
@@ -71,7 +71,7 @@ const Details = () => {
             <h2>Attributes</h2>
 
             <div className='card__attribute'>
-              <div className='luxury__ball'><img src={images.luxuryball}/> </div>
+              <div className='luxury__ball'><img src='https://archives.bulbagarden.net/media/upload/8/87/Bag_Luxury_Ball_Sprite.png'/> </div>
               <div className='rarity__box'>
                   <p>Catalyst</p>
                   <h5>Rare</h5>
@@ -119,9 +119,9 @@ const Details = () => {
         <div className='share__social'>
           <div><p className='share'>Share in:</p></div>
 
-          <a href='https://www.facebook.com/profile.php?id=100028954895933' target='_blank'><img src={images.facebook}/></a>
+          <a href='https://www.facebook.com/profile.php?id=100028954895933' target='_blank'><img src='https://www.sandbox.game/img/07_Asset_Info/facebook-icon.svg'/></a>
 
-          <a href='https://www.youtube.com/watch?v=pYFCsri1K2M' target='_blank'><img src={images.twitter}/></a>
+          <a href='https://www.youtube.com/watch?v=pYFCsri1K2M' target='_blank'><img src='https://www.sandbox.game/img/07_Asset_Info/twitter-icon.svg'/></a>
         </div>
 
         <div className='creator__card'>
@@ -213,7 +213,7 @@ const Details = () => {
                 <div className='listed__card'>
                   <div className='hover__bg__common'></div>
                     <div className='other__products'>
-                      <div className='preview__small'> <img src={images.impostor}/></div>
+                      <div className='preview__small'> <img src='https://static.wikia.nocookie.net/among-us-wiki/images/3/31/Red.png'/></div>
 
                       <div className='info__mini'>
                         <div className='info__data'>

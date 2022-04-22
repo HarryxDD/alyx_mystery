@@ -40,7 +40,7 @@
 }
 
 .info .btn__container{
-    margin: 20px 0 0;
+    margin: 20px 0 10px;
 }
 
 .btn__container .btn{
@@ -115,7 +115,7 @@
     }
 
     .banner__alyx-section {
-       margin-top: 0px;
+       margin: -1px -11px 10px;
     }
 }
 
@@ -126,6 +126,7 @@
     .info__title{
         font-size: 2.5rem;
         margin-bottom: 15px;
+        margin-top: -125px;
     }
 
     .info {
@@ -137,6 +138,10 @@
     .alyx__banner .info{
         margin-right: 10px;
         width: auto;
+    }
+    
+    .info .btn__link{
+        margin-top: 10px;
     }
 }
 
@@ -165,5 +170,9 @@
 
     .btn__container .btn .btn__stake{
         margin-bottom: 0;
+    }
+
+    .banner__alyx-section {
+        margin: -1px -11px 24px;
     }
 }
