@@ -209,7 +209,7 @@ const MakerProducts = () => {
             <p className="count__products"> 4 results</p>
             <div className="products__wrapper mt__wrapper">
               <div className="page__relative">
-                <a href="https://www.sandbox.game/en/assets/-green-bells-lulusneaker-lululand/e8566ec5-3a02-40f8-97d9-0d3220654876/" className="products__card">
+                <a href="https://www.sandbox.game/en/assets/-green-bells-lulusneaker-lululand/e8566ec5-3a02-40f8-97d9-0d3220654876/" className="products__card legend__item">
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
@@ -250,7 +250,7 @@ const MakerProducts = () => {
                 </div>
               </div>
               <div className="page__relative">
-                <a href="https://www.sandbox.game/en/assets/a-l-f-r-e-d/fd44f14d-3b53-48be-a149-0a6f5825200c/" className="products__card">
+                <a href="https://www.sandbox.game/en/assets/a-l-f-r-e-d/fd44f14d-3b53-48be-a149-0a6f5825200c/" className="products__card rare__item">
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
@@ -291,7 +291,7 @@ const MakerProducts = () => {
                 </div>
               </div>
               <div className="page__relative">
-                <a href="https://www.sandbox.game/en/assets/-green-bells-lulusneaker-lululand/e8566ec5-3a02-40f8-97d9-0d3220654876/" className="products__card">
+                <a href="https://www.sandbox.game/en/assets/-green-bells-lulusneaker-lululand/e8566ec5-3a02-40f8-97d9-0d3220654876/" className="products__card common__item">
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
@@ -332,7 +332,7 @@ const MakerProducts = () => {
                 </div>
               </div>
               <div className="page__relative">
-                <a href="https://www.sandbox.game/en/assets/everdreamsoft-bearwhale/0fe568bf-54e0-474e-99f9-84d0b7693b98/" className="products__card">
+                <a href="https://www.sandbox.game/en/assets/everdreamsoft-bearwhale/0fe568bf-54e0-474e-99f9-84d0b7693b98/" className="products__card rare__item">
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
@@ -384,7 +384,7 @@ const MakerProducts = () => {
             OpenSea.io and set SAND as the currency</p>
             <div className="products__wrapper mt__wrapper">
               <div className="page__relative">
-                <a href="https://www.sandbox.game/en/assets/-green-bells-lulusneaker-lululand/e8566ec5-3a02-40f8-97d9-0d3220654876/" className="products__card">
+                <a href="https://www.sandbox.game/en/assets/-green-bells-lulusneaker-lululand/e8566ec5-3a02-40f8-97d9-0d3220654876/" className="products__card elite__item">
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
@@ -425,7 +425,7 @@ const MakerProducts = () => {
                 </div>
               </div>
               <div className="page__relative">
-                <a href="https://www.sandbox.game/en/assets/a-l-f-r-e-d/fd44f14d-3b53-48be-a149-0a6f5825200c/" className="products__card">
+                <a href="https://www.sandbox.game/en/assets/a-l-f-r-e-d/fd44f14d-3b53-48be-a149-0a6f5825200c/" className="products__card legend__item">
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
@@ -466,7 +466,7 @@ const MakerProducts = () => {
                 </div>
               </div>
               <div className="page__relative">
-                <a href="https://www.sandbox.game/en/assets/-green-bells-lulusneaker-lululand/e8566ec5-3a02-40f8-97d9-0d3220654876/" className="products__card">
+                <a href="https://www.sandbox.game/en/assets/-green-bells-lulusneaker-lululand/e8566ec5-3a02-40f8-97d9-0d3220654876/" className="products__card legend__item">
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
@@ -507,7 +507,7 @@ const MakerProducts = () => {
                 </div>
               </div>
               <div className="page__relative">
-                <a href="https://www.sandbox.game/en/assets/everdreamsoft-bearwhale/0fe568bf-54e0-474e-99f9-84d0b7693b98/" className="products__card">
+                <a href="https://www.sandbox.game/en/assets/everdreamsoft-bearwhale/0fe568bf-54e0-474e-99f9-84d0b7693b98/" className="products__card common__item">
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>

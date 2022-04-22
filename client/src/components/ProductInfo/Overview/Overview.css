@@ -31,7 +31,7 @@
     padding: 50px 0px;
     background-color: #14181d;
     border-radius:20px;
-    border: 3px solid #0084ff;
+    border: 3px solid var(--color-main);
 }
 
 .product__picture {
@@ -80,11 +80,11 @@
 }
 
 .user__name {
-    color: #0084ff;
+    color: var(--color-main);
 }
 
 .user__profile:hover {
-    color: #0069cc;
+    color: #c75000;
     transition: ease-in-out;
 }
 
@@ -110,8 +110,8 @@
 
 .add__cart:hover {
     cursor: pointer;
-    background-color: #0069cc;
-    border: 2px solid #0069cc;
+    background-color: var(--color-main);
+    border: 2px solid var(--color-main);
     transition: all 0.3s ease-in-out;
 }
 
@@ -121,12 +121,12 @@
     text-align: center;
     width: 190px;
     height: 40px;
-    background-color: #0084ff;
+    background-color: var(--color-main);
     border-radius:50px;
 }
 
 .buy__now:hover {
-    background-color: #0069cc;
+    background-color: rgb(206, 100, 14);
     transition: all 0.3s ease-in-out;
 }
 
@@ -142,7 +142,6 @@
         position: relative;
         max-width: 100%;
         margin-top: 100px;
-        margin-bottom: 30%;
     }
 
     .square {
@@ -195,10 +194,6 @@
 
     .product__picture {
         width: 100%;
-    }
-
-    .attribute__container {
-       margin-top: -100px;
     }
 
     .button__layout {

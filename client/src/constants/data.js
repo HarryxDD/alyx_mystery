@@ -1,12 +1,12 @@
 const news = [
     {
-        image: 'https://strapi.sandbox.game/uploads/0_T_Ic_Jzc2_Ek3_Qbl8d_A_181341f24f.png',
+        image: 'https://i0.wp.com/invisioncommunity.co.uk/wp-content/uploads/2020/08/3-out-of-10.jpg?w=1000',
         category: 'PROJECT UPDATES',
         title: 'The Alyxbox Alpha Season 2',
         date: 'Mar 10 2022'
     },
     {
-        image: 'https://strapi.sandbox.game/uploads/1_H5_Sy_X2kh_P6_I_Ix_M7_VBHVK_6_A_72a5bf4eaf.png',
+        image: 'https://gumlet.assettype.com/afkgaming%2F2021-11%2Fe955f1e7-12c7-4cda-b027-720d2a225d47%2FKey_Visual__English__Logos_.jpeg?aut',
         category: 'PARTNERSHIPS',
         title: 'World of Women and The Alyxbox partner with a 25 million dollar fund to lead and support    women into the metaverse',
         date: 'Mar 12 2022'
