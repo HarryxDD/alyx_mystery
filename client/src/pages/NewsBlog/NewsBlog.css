@@ -56,10 +56,12 @@
 .category {
     font-size: 15px!important;
     line-height: 20px;
-    color: #00adef!important;
+    color: var(--color-main)!important;
     text-transform: uppercase;
     margin-bottom: 0;
 }
+
+
 
 .title {
     font-size: 32px;
@@ -110,9 +112,9 @@
     width: 100%;
     padding: 10px 0;
     background-color: transparent;
-    border: 2px solid #0084ff;
+    border: 2px solid var(--color-main);
     font-size: 15px;
-    color: #0084ff;
+    color: var(--color-main);
     border-radius: 30px;
 }
 
@@ -227,7 +229,7 @@
 }
 
 .custom__header {
-    margin-top: 40px;
+    margin: 40px 0 15px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -251,7 +253,7 @@
 }
 
 .custom__header a h3 {
-    color: #0084ff;
+    color: var(--color-main);
 }
 
 .details__related {

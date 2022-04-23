@@ -22,7 +22,7 @@ const NewsBlog = () => {
                         <p className="date">Apr 20 - 6.9 min read</p>
                         <h5 className="category">Announcements</h5>
 
-                        <h1 className="title">CEO Of Sex Is Annoucing Sex 2.0</h1>
+                        <h1 className="title">CEO Of ALyx Is Annoucing ALyx 2.0</h1>
 
                         <div className='active__post'>
                             <p className='sub__title'>We're no strangers to love. You know the rules and so do I. A full commitment's what I'm thinking of. You wouldn't get this from any other guy...</p>
@@ -62,11 +62,11 @@ const NewsBlog = () => {
 
                             <br/>
 
-                            <p className='desc'>Mùa xuân có em như chưa bắt đầu. Và cơn gió như khẽ mơn man lay từng nhành hoa rơi. Em đã bước tới như em đã từng. Chạy trốn với anh trên cánh đồng xanh. Khúc nhạc hòa cùng nắng chiều dịu dàng để mình gần lại mãi. Nói lời thì thầm những điều thật thà đã giữ trong tim mình. Những chặng đường dài ngỡ mình mệt nhoài. Đã một lần gục ngã.Tháng tư có em ở đây nhìn tôi mỉm cười.</p>
+                            <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id leo eros. Etiam eros massa, vestibulum sed nisi ut, vulputate pretium neque. Cras vitae quam pulvinar, molestie dolor eu, gravida mi. Cras vitae est a urna euismod pharetra. Ut tempor in quam vel aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id leo eros. Etiam eros massa, vestibulum sed nisi ut, vulputate pretium neque. Cras vitae quam pulvinar, molestie dolor eu, gravida mi. Cras vitae est a urna euismod pharetra. Ut tempor in quam vel aliquet.</p>
 
                             <br/>
 
-                            <p className='desc'>Những cánh hoa phai tàn thật nhanh, em có bay xa em có đi xa mãi. Tháng tư đôi khi thật mong manh để mình nói ra những câu chân thật.Giá như tôi một lần tin em, cô gái tôi thương nay hóa theo mây gió.Để lại tháng tư ở đó</p>
+                            <p className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id leo eros. Etiam eros massa, vestibulum sed nisi ut, vulputate pretium neque. Cras vitae quam pulvinar, molestie dolor eu, gravida mi. Cras vitae est a urna euismod pharetra. Ut tempor in quam vel aliquet.</p>
 
                             <br/>
 
@@ -121,7 +121,7 @@ const NewsBlog = () => {
                                 </div>
 
                                 <div className='related__item'>
-                                    <img src={images.amogus_meme}/>
+                                    <img src="https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/3703047/9b31369bd6f6b1fa85fe08fa6cd34338adc5b58b.jpg"/>
 
                                     <div className='related__item__details'>
                                         <p className="category">Announcements</p>
@@ -142,7 +142,7 @@ const NewsBlog = () => {
                                 </div>
 
                                 <div className='related__item'>
-                                    <img src={images.rick}/>
+                                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/1046930/capsule_616x353.jpg"/>
 
                                     <div className='related__item__details'>
                                         <p className="category">Announcements</p>
