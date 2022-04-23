@@ -169,6 +169,7 @@
 
     .info__pages {
         align-items: center;
+        margin-top: 80px;
     }
 
     .info__list {
@@ -179,6 +180,7 @@
 
     .info__social {
         align-items: center;
+        margin-top: 80px;
     }
 
     .info__item {
@@ -213,7 +215,7 @@
 
 @media screen and (max-width: 370px) {
     .app__contact-info {
-        height: 900px;
+        height: 1000px;
     }
 }
 
