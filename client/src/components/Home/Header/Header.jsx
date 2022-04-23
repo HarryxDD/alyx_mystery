@@ -12,18 +12,18 @@ const Header = () => {
           </div>
           <div className='info__overlay'>
             <div className='info__overlay-highlight'>
-              <p>ALPHA SEASON 2 HAS JUST ENDED</p>
+              <p>MIDTERM ASSIGNMENT HAS JUST ENDED</p>
             </div>
             <div className='info__overlay-nor'>
               <img src={images.alyx} alt="" />
-              <p>Thanks to all Alpha Season 2 players!</p>
-              <p>Season 2 Alpha Pass winners can now claim their rewards</p>
+              <p className="info__overlay-textp">Thanks Mr. Richard Sharp!</p>
+              <p>PLEASEEE GIVE US A GOOD MARK</p>
               <div className='info__button'>
                 <button className='info__button-claim'>
                   Claim
                 </button>
                 <button className='info__button-buy'>
-                  Buy Land
+                  Buy Alyx
                 </button>
               </div>
             </div>

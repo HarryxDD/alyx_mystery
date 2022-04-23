@@ -124,11 +124,11 @@
 }
 
 .season__img img:first-child {
-    width: 50%;
+    width: 80%;
 }
 
 .season__img img:last-child {
-    width: 80%;
+    width: 100%;
 }
 
 .season__info {

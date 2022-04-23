@@ -42,13 +42,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/e8566ec5-3a02-40f8-97d9-0d3220654876/preview?bafkreih5mchbcnuz475hnakul3uqyvfls42lqhlunbu26ceyl3gybs3xqe" alt="preview" />
+                      <img className="card__preview" src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5b/Creeper_JE2_BE1.png" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          Green Bells - LuluSneaker - Lululand
+                          Creeper Common
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -83,13 +83,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/fd44f14d-3b53-48be-a149-0a6f5825200c/preview?bafkreihlj5akz6za7qexr3pqoraku2z7xczs3tevass6yhrpzweuqircxu" alt="preview" />
+                      <img className="card__preview" src="https://www.pokencyclopedia.info/sprites/gen5/ani_black-white/ani_bw_034.gif" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          A.L.F.R.E.D
+                          Nidoking 2D Rare
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -124,13 +124,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/9a13a2bb-829c-48a1-aa45-855684b1e362/preview?bafkreihnvkhysqq3x2suefnyl5oticzycnzihk2z2m6llhnludywxp3ffq" alt="preview" />
+                      <img className="card__preview" src="https://www.pokencyclopedia.info/sprites/gen5/ani_black-white/ani_bw_383.gif" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          Sir of the Ether
+                          Groudon Gen V Legendary
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -165,13 +165,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/0fe568bf-54e0-474e-99f9-84d0b7693b98/preview?bafkreigeyekbvbhyslnhmwwgzln4nkzzyivp5gclqhzcc6glvphav3egha" alt="preview" />
+                      <img className="card__preview" src="https://www.pokencyclopedia.info/sprites/gen5/ani_black-white_shiny/ani_bw-S_384.gif" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          EverdreamSoft: Bearwhale
+                          Rayquaza Shiny Gen V
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -213,13 +213,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/e8566ec5-3a02-40f8-97d9-0d3220654876/preview?bafkreih5mchbcnuz475hnakul3uqyvfls42lqhlunbu26ceyl3gybs3xqe" alt="preview" />
+                      <img className="card__preview" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/international2016/battle_pass/hero_images/jugg_tout_gold.png" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          Green Bells - LuluSneaker - Lululand
+                          Golden Fortune's Tout
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -254,13 +254,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/fd44f14d-3b53-48be-a149-0a6f5825200c/preview?bafkreihlj5akz6za7qexr3pqoraku2z7xczs3tevass6yhrpzweuqircxu" alt="preview" />
+                      <img className="card__preview" src="https://vgraphs.com/images/weapons/skins/full-details/valorant-ego-knife-variant-2-tan-weapon-skin.png" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          A.L.F.R.E.D
+                          E.G.O Knife
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -295,13 +295,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/9a13a2bb-829c-48a1-aa45-855684b1e362/preview?bafkreihnvkhysqq3x2suefnyl5oticzycnzihk2z2m6llhnludywxp3ffq" alt="preview" />
+                      <img className="card__preview" src="https://www.pokencyclopedia.info/sprites/gen5/ani_black-white/ani_bw_082.gif" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          Sir of the Ether
+                          Magneton Gen V
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -388,13 +388,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/e8566ec5-3a02-40f8-97d9-0d3220654876/preview?bafkreih5mchbcnuz475hnakul3uqyvfls42lqhlunbu26ceyl3gybs3xqe" alt="preview" />
+                      <img className="card__preview" src="https://csgostash.com/storage/img/skin_sideview/s1284.png" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          Green Bells - LuluSneaker - Lululand
+                          Desert Eagle - PrintStream
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -429,13 +429,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/fd44f14d-3b53-48be-a149-0a6f5825200c/preview?bafkreihlj5akz6za7qexr3pqoraku2z7xczs3tevass6yhrpzweuqircxu" alt="preview" />
+                      <img className="card__preview" src="https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/studded_brokenfang_gloves_operation10_metalic_green_light_large.80a800c0b681384b0227d4125cd21c4e4df0469c.png" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          A.L.F.R.E.D
+                          Broken Fang Gloves - Jade
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -470,13 +470,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/9a13a2bb-829c-48a1-aa45-855684b1e362/preview?bafkreihnvkhysqq3x2suefnyl5oticzycnzihk2z2m6llhnludywxp3ffq" alt="preview" />
+                      <img className="card__preview" src="https://i.pinimg.com/originals/28/32/83/28328366be8cdcbb66b9b90fd4c2126c.gif" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          Sir of the Ether
+                          Vileplume Gen VI
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -511,13 +511,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://api.sandbox.game/assets/public/0fe568bf-54e0-474e-99f9-84d0b7693b98/preview?bafkreigeyekbvbhyslnhmwwgzln4nkzzyivp5gclqhzcc6glvphav3egha" alt="preview" />
+                      <img className="card__preview" src="https://www.smogon.com/dex/media/sprites/xy/corviknight.gif" alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          EverdreamSoft: Bearwhale
+                          Corviknight Gen VIII
                         </p>
                       </div>
                       <div className="card__bottom-data">

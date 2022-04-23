@@ -14,7 +14,7 @@ const Newsfeed = () => {
             <div className='app__news-community_title'>
                 <div className='community__title'>
                     <p className='text__category'>COMMUNITY</p>
-                    <h1 className='text__title'>WHAT'S NEW</h1>
+                    <h1 className='text__title'>WAT DA DEVS DOIN'</h1>
                 </div>
                 <div className='community__explore'>
                     <Link to="/community">
@@ -39,7 +39,7 @@ const Newsfeed = () => {
                 <p className='text__category'>COMPLETE THE SURVEY</p>
                 <h1 className='text__title'>EARN AN ALX COIN</h1>
                 <p className='news__text survey__info-text'>
-                    Help us improving The Sandbox by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!
+                    Help us improving The ALyx by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!
                 </p>
                 <div className='survey__btn'>
                     <button>Take the survey</button>
@@ -50,14 +50,14 @@ const Newsfeed = () => {
                     <img src="https://www.sandbox.game/img/14_Home/gradient-overlay.svg" alt="" />
                 </div>
                 <div className='survey__img-image'>
-                    <img src="https://www.sandbox.game/img/14_Home/survey-2.png" alt="" />
+                    <img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/5/56/Flying_Courier_Dire_model.png" alt="" />
                 </div>
             </div>
         </div>
         <div className='app__news-season item__padding'>
             <div className='season__img'>
                 <img src="https://www.sandbox.game/img/14_Home/memorabilia-glow.png" alt="" />
-                <img src="https://www.sandbox.game/img/14_Home/memorabilia-home.png" alt="" />
+                <img src="https://dotaland.org/uploads/case-images/787eb156b5f2e2481277a5d1ccf6732d.png" alt="" />
             </div>
             <div className='season__info'>
                 <p className='text__category'>ALPHA SEASON 2</p>

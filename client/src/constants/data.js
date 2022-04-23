@@ -36,7 +36,7 @@ const achievements = [
         desc: 'COMMUNITY BOOSTER'
     },
     {
-        image: 'https://www.sandbox.game/img/30_Landing/alpha/metrics/3.png',
+        image: 'https://static-asset-delivery.hasbroapps.com/49353ef64445d631a90dfb959c9d085e06c08bc0/eb612d81058fe614a86c32ff5c53d4cc.png',
         title: '10K',
         desc: 'ALPHA PASSES DISTRIBUTED'
     },
@@ -51,7 +51,7 @@ const achievements = [
         desc: 'CONTESTS PARTICIPANTS'
     },
     {
-        image: 'https://www.sandbox.game/img/30_Landing/alpha/metrics/6.png',
+        image: 'https://minifigures.e2ecdn.uk/Categories/FilmTV.png',
         title: '325K',
         desc: 'ALPHA HUB VISITORS'
     },

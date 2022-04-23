@@ -13,7 +13,6 @@
     /* background-image: url('../../assets/header_img.jpg');
     background-repeat:round;
     background-size: 100% 600px; */
-
 }
 
 .app__header-image img {
@@ -57,6 +56,11 @@
     flex-direction: column;
     margin-left: 1%;
     padding: 1rem 2rem 1.7rem 2rem;
+}
+
+.info__overlay-nor .info__overlay-textp{
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .info__overlay-nor img {
