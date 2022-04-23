@@ -151,7 +151,8 @@
     }
 
     .banner__alyx-section .info{
-        margin: 20px 0 10px -100px;
+        margin: 0px 0 10px -100px;
+        padding-top: 80px;
     }
     
     .info__title{
