@@ -1,47 +1,87 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import './Registration.css'
 
 const Registration = () => {
+    const [state, setState] = useState({
+        fname: "",
+        uname: "",
+        email: "",
+        phone: "",
+        password: "",
+        gender: "",
+        password_confirm: ""
+    });
+
+    function handleChange(evt) {
+        const value = evt.target.value;
+        setState({
+            ...state,
+            [evt.target.name]: value
+        })
+    }
+
+    function handleSubmit() {
+        console.log(state)
+        if (state.password != state.password_confirm) {
+            alert("Wrong password confirm!")
+        } 
+        else alert('Register Success!')
+    }
+
   return (
     <div className="app__registration">
         <div className="registration__title">Registration</div>
-        <form action="#">
+        <form action="#" onSubmit={handleSubmit}>
             <div className="registration__user-details">
                 <div className="registration__input-box">
                     <span className="" details>Full name</span>
-                    <input type="text" placeholder="Enter your name" required />
+                    <input name="fname" type="text" placeholder="Enter your name" required 
+                            onChange={handleChange}
+                            value={state.fname}/>
                 </div>
 
                 <div className="registration__input-box">
                     <span class="" details>Username</span>
-                    <input type="text" placeholder="Enter your username" required />
+                    <input name="uname" type="text" placeholder="Enter your username" required 
+                        onChange={handleChange}
+                        value={state.uname}/>
                 </div>
 
                 <div className="registration__input-box">
                     <span className="" details>Email</span>
-                    <input type="text" placeholder="Enter your email" required />
+                    <input name="email" type="email" placeholder="Enter your email" required 
+                        onChange={handleChange}
+                        value={state.email}/>
                 </div>
 
                 <div className="registration__input-box">
                     <span className="" details>Phone Number</span>
-                    <input type="text" placeholder="Enter your number" required />
+                    <input name="phone" type="number" placeholder="Enter your number" required 
+                            onChange={handleChange}
+                            value={state.phone}/>
                 </div>
 
                 <div className="registration__input-box">
                     <span className="" details>Password</span>
-                    <input type="text" placeholder="Enter your password" required />
+                    <input name="password" type="password" placeholder="Enter your password" required 
+                        onChange={handleChange}
+                        value={state.password}/>
                 </div>
 
                 <div className="registration__input-box">
                     <span className="" details>Confirm Password</span>
-                    <input type="text" placeholder="Confirm your password" required />
+                    <input name="password_confirm" type="password" placeholder="Confirm your password" required
+                            onChange={handleChange}
+                            value={state.password_confirm}/>
                 </div>
 
-                <div className="registration__gender-details">
-                    <input type="radio" name="gender" id="dot-1" />
-                    <input type="radio" name="gender" id="dot-2" />
-                    <input type="radio" name="gender" id="dot-3" />
+                <div className="registration__gender-details" name="gender"
+                    onChange={handleChange}
+                    value={state.gender}>
+                    <input type="radio" name="gender" id="dot-1" value="Male"/>
+                    <input type="radio" name="gender" id="dot-2" value="Female"/>
+                    <input type="radio" name="gender" id="dot-3" value="Prefer not to say"/>
                     <span className="registration__gender-title">Gender</span>
                     <div className="registration__category">
                         <label for="dot-1">

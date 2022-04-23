@@ -1,0 +1,73 @@
+.app__survey {
+    display: flex;
+    background-color: #14181d;
+    text-align: center;
+    flex-direction: column;
+    font-family: var(--font-base);
+    padding-top: 90px;
+}
+
+.app__survey h1 {
+    color: #fff;
+}
+
+.app__survey form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form__control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form__control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form__control input,
+.form__control select,
+.form__control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form__control input[type="radio"],
+.form__control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+.app__survey button {
+    background-color: #0084ff;
+    border: 2px solid #0084ff;
+    border-radius: 10px;
+    font-family: inherit;
+    font-size: 21px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.app__survey button:hover {
+    background-color: #0069cc;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 1281px) {
+    .app__survey {
+        padding-left: 90px;
+    }
+}

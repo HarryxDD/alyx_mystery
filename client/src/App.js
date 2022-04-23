@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Contact, Navbar, Sidebar } from './components';
-import { Home, About, Community, Registration, Market, ProductInfo, NewsBlog, Game } from './pages';
+import { Home, About, Community, Registration, Market, ProductInfo, NewsBlog, Game, Survey } from './pages';
 
 import {
   BrowserRouter as Router,
@@ -45,6 +45,7 @@ const App = () => {
           <Route path='/newsblog' element={<NewsBlog />} />
           <Route path='/productinfo' element={<ProductInfo />} />
           <Route path='/game' element={<Game />} />
+          <Route path='/survey' element={<Survey />} />
         </Routes>
 
         <Contact />

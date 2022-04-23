@@ -6,6 +6,7 @@ import Market from './Market/Market';
 import ProductInfo from './ProductInfo/ProductInfo';
 import NewsBlog from './NewsBlog/NewsBlog';
 import Game from './Game/Game';
+import Survey from './Survey/Survey';
 
 export {
     Home,
@@ -15,5 +16,6 @@ export {
     Registration,
     ProductInfo,
     NewsBlog,
-    Game
+    Game,
+    Survey
 }

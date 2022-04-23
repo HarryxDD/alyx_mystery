@@ -41,9 +41,11 @@ const Newsfeed = () => {
                 <p className='news__text survey__info-text'>
                     Help us improving The ALyx by sending your feedback. Complete the survey now and get extra Raffle Tickets for Alpha Season 3!
                 </p>
-                <div className='survey__btn'>
-                    <button>Take the survey</button>
-                </div>
+                <Link to="/survey">
+                    <div className='survey__btn'>
+                        <button>Take the survey</button>
+                    </div>
+                </Link>
             </div>
             <div className='survey__img'>
                 <div className='survey__img-overlay'>
