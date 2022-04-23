@@ -1,22 +1,22 @@
-.app__survey {
+.app__registration {
     display: flex;
     flex-direction: column;
-    width: 80%;
-    margin-left: 10%;
-    background: #fff;
-    padding: 100px 30px 25px 30px;
+    width: 100%;
+    background: var(--color-black);
+    padding: 100px 90px 25px 70px;
     border-radius: 5px;
     align-items: center;
+    color: white;
 }
 
 
-.app__survey .survey__title {
+.app__registration .registration__title {
     font-size: 25px;
     font-weight: 500;
     position: relative;
 }
 
-.app__survey .survey__title::before {
+.app__registration .registration__title::before {
     content: '';
     position: absolute;
     left: 0;
@@ -26,25 +26,25 @@
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
-.app__survey form .survey__user-details {
+.app__registration form .registration__user-details {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
 }
 
-form .survey__user-details .survey__input-box {
+form .registration__user-details .registration__input-box {
     margin-bottom: 15px;
     width: calc(100% / 2 - 20px);
 }
 
-.survey__user-details .survey__input-box .survey__details {
+.registration__user-details .registration__input-box .registration__details {
     display: block;
     font-weight: 1000;
     margin-bottom: 5px;
 }
 
-.survey__user-details .survey__input-box input {
+.registration__user-details .registration__input-box input {
     height: 45px;
     width: 100%;
     outline: none;
@@ -56,33 +56,33 @@ form .survey__user-details .survey__input-box {
     transition: all 0.5s ease;
 }
 
-.survey__user-details .survey__input-box input:focus,
-.survey__user-details .survey__input-box input:valid {
+.registration__user-details .registration__input-box input:focus,
+.registration__user-details .registration__input-box input:valid {
     border-color: #9b59b6;
 }
 
-.survey__gender-details {
+.registration__gender-details {
     width: 100%;
 }
 
-form .survey__gender-details .survey__gender-title {
+form .registration__gender-details .registration__gender-title {
     font-size: 20px;
     font-weight: 500;
 }
 
-form .survey__gender-details .survey__category {
+form .registration__gender-details .registration__category {
     display: flex;
     width: 80%;
     margin: 14px 0;
     justify-content: space-between;
 }
 
-.survey__gender-details .survey__category label {
+.registration__gender-details .registration__category label {
     display: flex;
     align-items: center;
 }
 
-.survey__gender-details .survey__category .survey__dot {
+.registration__gender-details .registration__category .registration__dot {
     height: 18px;
     width: 18px;
     background: #d9d9d9;
@@ -92,9 +92,9 @@ form .survey__gender-details .survey__category {
     transition: all 0.3s ease;
 }
 
-#dot-1:checked~.survey__category label .one,
-#dot-2:checked~.survey__category label .two,
-#dot-3:checked~.survey__category label .three {
+#dot-1:checked~.registration__category label .one,
+#dot-2:checked~.registration__category label .two,
+#dot-3:checked~.registration__category label .three {
     border-color: #d9d9d9;
     background: #9b59b6;
 }
@@ -103,12 +103,12 @@ form input[type="radio"] {
     display: none;
 }
 
-form .survey__button {
+form .registration__button {
     height: 45px;
     margin: 35px 0;
 }
 
-form .survey__button input {
+form .registration__button input {
     height: 100%;
     width: 100%;
     outline: none;
@@ -121,32 +121,32 @@ form .survey__button input {
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
-form .survey__button input:hover {
+form .registration__button input:hover {
     background: linear-gradient(-135deg, #71b7e6, #9b59b6);
 }
 
 @media screen and (min-width: 1281px) {
-    .app__survey {
-        padding-left: 90px;
+    .app__registration {
+        padding-left: 180px;
     }
 }
 
 @media (max-width: 584px) {
-    .app__survey {
+    .app__registration {
         max-width: 100%;
     }
-    form .survey__user-details .survey__input-box {
+    form .registration__user-details .registration__input-box {
         margin-bottom: 15px;
         width: 100%;
     }
-    form .survey__gender-details .survey__category {
+    form .registration__gender-details .registration__category {
         width: 100%;
     }
-    .app__survey form .survey__user-details {
+    .app__registration form .registration__user-details {
         max-height: 300px;
         overflow-y: scroll;
     }
-    .survey__user-details::-webkit-scrollbar {
+    .registration__user-details::-webkit-scrollbar {
         width: 0;
     }
 }

@@ -37,6 +37,8 @@ import Social from "./Community/Social/Social";
 import Details from "./ProductInfo/Details/Details";
 import Overview from "./ProductInfo/Overview/Overview";
 
+// Game Page
+import GamePage from "./GamePage/GamePage";
 
 export {
     Navbar,
@@ -67,4 +69,5 @@ export {
     Social,
     Details,
     Overview,
+    GamePage,
 }

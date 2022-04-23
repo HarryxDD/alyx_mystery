@@ -1,0 +1,63 @@
+.app__gamepage {
+    position: relative;
+    height: 100vh;
+    color: white;
+    font-family: var(--font-base);
+}
+
+.app__gamepage-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.3;
+}
+
+.app__gamepage-content {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.app__gamepage-content h1 {
+    font-size: 70px;
+}
+
+.app__gamepage-content .beta__warning {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.app__gamepage-content .beta__release {
+    font-size: 13px;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+.app__gamepage-content button {
+    padding: 1rem 2.5rem;
+    font-size: 20px;
+    color: var(--color-main);
+    border: 1px solid var(--color-main);
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 0 var(--color-main);
+    transition: all 0.5s ease;
+}
+
+.app__gamepage-content button:hover {
+    color: white;
+    box-shadow: inset 200px 0 0 0 var(--color-main);
+}
+
+@media screen and (max-width: 650px) {
+    .app__gamepage-content h1 {
+        font-size: 40px;
+    }
+}

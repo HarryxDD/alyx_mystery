@@ -241,10 +241,13 @@
         display: none;
     }
 
-    .coin__info svg, span {
+    .coin__info svg {
         display: none;
     }
 
+    .pleasegiveusaplus {
+        display: none;
+    }
 
     .shopping__cart {
         display: none;

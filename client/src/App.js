@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Contact, Navbar, Sidebar } from './components';
-import { Home, About, Community, Survey, Market, ProductInfo, NewsBlog } from './pages';
+import { Home, About, Community, Registration, Market, ProductInfo, NewsBlog, Game } from './pages';
 
 import {
   BrowserRouter as Router,
@@ -34,16 +34,17 @@ const App = () => {
         <ScrollToTop />
 
         <Navbar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
-        <Sidebar toggleMenu={toggleMenu}/>
+        <Sidebar toggleMenu={toggleMenu} setToggleMenu={setToggleMenu}/>
          
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/community' element={<Community />}/>
           <Route path='/about/*' element={<About />}/>
-          <Route path='/survey' element={<Survey />}/>
+          <Route path='/registration' element={<Registration />}/>
           <Route path='/market' element={<Market />}/>
           <Route path='/newsblog' element={<NewsBlog />} />
           <Route path='/productinfo' element={<ProductInfo />} />
+          <Route path='/game' element={<Game />} />
         </Routes>
 
         <Contact />

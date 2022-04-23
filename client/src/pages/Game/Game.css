@@ -1,0 +1,12 @@
+.app__game {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    background-color: black;
+}
+
+@media screen and (min-width: 1281px) {
+    .app__game {
+        padding-left: 90px;
+    }
+}
