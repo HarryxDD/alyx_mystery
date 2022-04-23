@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 
 import { FaTwitter, FaFacebookF, FaTelegramPlane } from 'react-icons/fa'
+
+import { useNavigate } from 'react-router-dom'
 
 import './News.css'
 
 const News = ({ image, category, title, date }) => {
+
+  const navigate = useNavigate();
+  const handleOnClick = useCallback(() => navigate('/newsblog', {replace: true}), [navigate]);
+
   return (
-    <div className='app__new'>
+    <div className='app__new' onClick={handleOnClick}>
       <div className='app__new-item'>
         <div className='item__title'>
           <div className='app__new-image'>

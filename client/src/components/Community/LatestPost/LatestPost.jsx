@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useCallback } from 'react'
 import { FaTwitter, FaFacebookF, FaTelegramPlane } from 'react-icons/fa'
 import { images } from '../../../constants'
+import { useNavigate } from 'react-router-dom'
 import './LatestPost.css'
 
 const LatestPost = () => {
+
+  const navigate = useNavigate();
+  const handleOnClick = useCallback(() => navigate('/newsblog', {replace: true}), [navigate]);
+
   return (
-    <div className='comm__latest comm__padding'>
+    <div className='comm__latest comm__padding' onClick={handleOnClick}>
       <div className='comm__latest-img'>
         <img src={images.lastest_post} alt="" />
       </div>

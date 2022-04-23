@@ -7,11 +7,11 @@ import { Link } from 'react-router-dom'
 
 import './Sidebar.css'
 
-const Sidebar = ({ toggleMenu }) => {
+const Sidebar = ({ toggleMenu, setToggleMenu }) => {
   return (
     <div className={'app__sidebar ' + (toggleMenu && "active")}>
         <ul className='app__sidebar-menu'>
-            <li>
+            <li onClick={() => setToggleMenu(false)}>
                 <Link to="/">
                 <div className='menu__icon menu__icon-home'>
                     <img src={images.a} alt="" />
@@ -19,15 +19,15 @@ const Sidebar = ({ toggleMenu }) => {
                 HOME
                 </Link>
             </li>
-            <li>
-                <Link to="/">
+            <li onClick={() => setToggleMenu(false)}>
+                <Link to="/game">
                 <div className='menu__icon menu__icon-game'>
                     <IoGameController />
                 </div>
                 GAME
                 </Link>
             </li>
-            <li>
+            <li onClick={() => setToggleMenu(false)}>
                 <Link to="/market">
                 <div className='menu__icon menu__icon-market'>
                     <FaStore />
@@ -35,7 +35,7 @@ const Sidebar = ({ toggleMenu }) => {
                 MARKET
                 </Link>
             </li>
-            <li>
+            <li onClick={() => setToggleMenu(false)}>
                 <Link to="/about">
                 <div className='menu__icon menu__icon-about'>
                     <FaInfo />

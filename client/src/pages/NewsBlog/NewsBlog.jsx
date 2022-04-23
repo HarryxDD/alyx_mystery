@@ -29,7 +29,7 @@ const NewsBlog = () => {
 
                             <br/>
 
-                            <p><img src={images.ceo} height="394" with="700" className='article__img'/></p>
+                            <p><img src="https://i.ytimg.com/vi/ZESfXCKZIMs/maxresdefault.jpg" height="394" with="700" className='article__img'/></p>
 
                             <br/>
                             <br/>

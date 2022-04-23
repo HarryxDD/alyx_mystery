@@ -26,7 +26,7 @@ const Newsfeed = () => {
                 </div>
             </div>
             <div className='community__news'>
-    
+                
                 {data.news.map((n, index) => (
                         <News key={n.title + index} image={n.image} category={n.category} title={n.title} date={n.date}/>
                 ))}
