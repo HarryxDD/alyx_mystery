@@ -479,6 +479,7 @@
 .text {
     color: #a1a1a1;
     font-size: 15px;
+    padding: 10px;
 }
 
 .benefit__list {
@@ -630,5 +631,24 @@
     .card__info__left, .card__info__right {
         width: 100%;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .rarity__box{
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 410px){
+
+    .rarity__box{
+        border: none;
+    }
+
+    .card__attribute
+    {
+        flex-direction: column;
+        padding: 10px 20px 20px 0px;
     }
 }
