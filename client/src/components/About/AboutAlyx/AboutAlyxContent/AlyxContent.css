@@ -285,9 +285,25 @@ small{
         margin: 0;
     }
     .alyx__content .items__container{
-        padding: 0 80px;
+        padding: 0 10px;
     }
     .alyx__content .last .items{
         margin-top: 10px;
+    }
+
+    .card__alyx-box{
+        flex-direction: column;
+    }
+
+    .box__content{
+        text-align: center;
+    }
+
+    .box__content p{
+        text-align: left;
+    }
+
+    .paragraphs1 p{
+        padding: 30px 10px;
     }
 }
