@@ -94,7 +94,7 @@ const AlyxContent = () => {
                     </p>
                     </div>
                 <figure className="center">
-                    <img src="https://www.sandbox.game/img/17_Sand/sand-concept.png" alt="" />
+                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/700/gameplay/overlay_gameplay_top.png" alt="" />
                 </figure>
                 </div>
                 <div className="paragraphs1 whatisAlyxP">
@@ -139,7 +139,7 @@ const AlyxContent = () => {
                     </p>
                 </div>
                 <figure className="center">
-                    <img src="https://www.sandbox.game/img/17_Sand/tokensand.png" alt="" />
+                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/700/gameplay/overlay_items_top.png" alt="" />
                 </figure>
                 <div className="paragraphs1">
                     <p className="whatisAlyxP">

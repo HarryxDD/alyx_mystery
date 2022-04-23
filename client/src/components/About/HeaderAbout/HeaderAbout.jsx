@@ -8,7 +8,7 @@ const Header_About = () => {
         <div className="app__header">
             <div className="app__header-info">
                 <div className="app__header-img">
-                    <img src={images.about_banner} alt="banner" />
+                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/700/hub/bg_02.jpg" alt="banner" />
                 </div>
                 <div className="app__header-text">
                     <div className="app__header-title">

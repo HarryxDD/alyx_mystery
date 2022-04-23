@@ -65,8 +65,7 @@
     }
  
     .app__header-img img{
-        height: 100vh;
-        max-height: 100vh;
+        height: 100%;
     }
 
     .app__header-title
