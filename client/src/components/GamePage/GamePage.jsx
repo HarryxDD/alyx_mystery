@@ -14,9 +14,11 @@ const GamePage = () => {
             <p className='beta__warning'>This game is under beta version.</p> 
             <p className='beta__release'>Expected release day: 17/7/2022</p>
 
-            <button>
+            <a href='http://alyx-mystery.byethost14.com/fighting/'>
+              <button>
                 PLAY GAME
-            </button>
+              </button>
+            </a>
 
             
         </div>

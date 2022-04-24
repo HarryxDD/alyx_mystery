@@ -7,7 +7,7 @@ const Overview = () => {
   return (
     <div className='sticky__wrapper'>
                 <div className='display__asset'>
-                    <div className='square'>
+                    <div className='square__frame'>
                         <div className='product__picture'>
                             <img src={images.lizardon}/>
                         </div>

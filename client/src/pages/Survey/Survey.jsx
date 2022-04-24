@@ -209,7 +209,7 @@ const Survey = () => {
                     onChange={handleChange}/>
             </div>
   
-            <button type="submit" value="submit" id="submit">Submit</button>
+            <button type="submit" value="submit">Submit</button>
             
         </form>
     </div>

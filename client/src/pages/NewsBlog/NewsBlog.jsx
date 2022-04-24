@@ -6,7 +6,7 @@ import images from '../../constants/images';
 const NewsBlog = () => {
   return (
     <div>
-        <div className='page__content'>
+        <div className='blog__content'>
             <p className='main__page'>
                 <div className='article__share'>
                     <p>SHARE</p>
