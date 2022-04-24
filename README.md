@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Alyx Mystery][product-screenshot]](https://imgur.com/u23mQlJ)
+<!-- [![Alyx Mystery][product-screenshot]](https://imgur.com/u23mQlJ) -->
 
 In the era of growing development of Blockchain, a series of NFT games in the play-to-earn genre were born and gained global popularity such as Axie Infinity, The Sanbox, Bomb Crypto, etc... With the desire to bring a novelty of 4.0 era technology and mix a bit of classic from fighting games from the early 20th century, Alyx Mystery is the first NFT game project in the Fight-to-type genre in the world.
 
@@ -171,31 +171,31 @@ This is an example of how to list things you need to use the software and how to
 
 - [x] Build Home Page 
       
-     [![Alyx Mystery][product-screenshot]](http://alyx-mystery.byethost14.com/)
+<!--      [![Alyx Mystery][product-screenshot]](http://alyx-mystery.byethost14.com/) -->
       
 - [x] Build Game Page
 
-     [![Alyx Mystery][product-screenshot1]](http://alyx-mystery.byethost14.com/)
+<!--      [![Alyx Mystery][product-screenshot1]](http://alyx-mystery.byethost14.com/) -->
      
     - [x] Build the offline beta version of the game
 
-         [![Alyx Mystery][product-screenshot2]](http://alyx-mystery.byethost14.com/)
+<!--          [![Alyx Mystery][product-screenshot2]](http://alyx-mystery.byethost14.com/) -->
          
 - [x] Build the beta version of NFT Marketplace
 
-     [![Alyx Mystery][product-screenshot3]](http://alyx-mystery.byethost14.com/)
+<!--      [![Alyx Mystery][product-screenshot3]](http://alyx-mystery.byethost14.com/) -->
      
 - [x] Build About Page
 
-     [![Alyx Mystery][product-screenshot4]](http://alyx-mystery.byethost14.com/)
+<!--      [![Alyx Mystery][product-screenshot4]](http://alyx-mystery.byethost14.com/) -->
      
 - [x] Build Community Page
 
-     [![Alyx Mystery][product-screenshot5]](http://alyx-mystery.byethost14.com/)
+<!--      [![Alyx Mystery][product-screenshot5]](http://alyx-mystery.byethost14.com/) -->
      
 - [x] Build Register Page
 
-     [![Alyx Mystery][product-screenshot6]](http://alyx-mystery.byethost14.com/)
+<!--      [![Alyx Mystery][product-screenshot6]](http://alyx-mystery.byethost14.com/) -->
      
 - [ ] Deploy Smart Contract for Alyx Token
 - [ ] Release The Alyx Game
