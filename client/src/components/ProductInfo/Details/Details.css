@@ -594,9 +594,20 @@
         flex-direction: column;
     }
 
+    .creator__container {
+        width: 100%;
+    }
+
+    .nft__container__title {
+        margin: 15px;
+    }
+
+    .info__data h3 {
+        width: 80%;
+    }
+
     .card__attribute {
         align-items: center;
-        padding: 20px 0;
     }
 
     .luxury__ball {
@@ -620,6 +631,7 @@
 
     .stats__view {
         flex-direction: column;
+        padding-left: 50px;
     }
 
     .benefit__list {
@@ -644,6 +656,8 @@
 
     .rarity__box{
         border: none;
+        text-align: center;
+        padding-left: 30px;
     }
 
     .card__attribute

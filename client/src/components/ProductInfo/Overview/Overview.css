@@ -185,6 +185,7 @@
     .display__asset {
         height: 350px;
         min-width: auto;
+        margin-bottom: -100px;
     }
 
     .square {
