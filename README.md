@@ -13,7 +13,7 @@
   <p align="center">
     An outstanding Fight-to-earn NFT Game
     <br />
-    <a href="https://github.com/HarryxDD/alyx_mystery"><strong>Explore the docs »</strong></a>
+    <a href="https://drive.google.com/file/d/1hReWLajE3-emCd_dnnD9V_62Q1MmgLQT/view"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/HarryxDD/alyx_mystery">View Demo</a>
