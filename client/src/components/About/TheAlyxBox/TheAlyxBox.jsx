@@ -188,29 +188,29 @@ const TheAlyxBox = () => {
                                     <figure>
                                         <img src={images.cuong} alt="Cuong" />
                                     </figure>
-                                    <p className="member__text">Cuong bede</p>
-                                    <p className="member__sub-text">NGU</p>
+                                    <p className="member__text">Cuong Lee</p>
+                                    <p className="member__sub-text">Developer</p>
                                 </div>
                                 <div className="page__team-member is__centered">
                                     <figure>
                                         <img src={images.vu} alt="Vu" />
                                     </figure>
-                                    <p className="member__text">Vu Deptrai</p>
-                                    <p className="member__sub-text">CEO</p>
+                                    <p className="member__text">Harry Truong</p>
+                                    <p className="member__sub-text">Designer / Developer</p>
                                 </div>
                                 <div className="page__team-member is__centered">
                                     <figure>
                                         <img src={images.nhut} alt="Nhut" />
                                     </figure>
-                                    <p className="member__text">Nghien Nhua</p>
-                                    <p className="member__sub-text">GAY</p>
+                                    <p className="member__text">Nicole Vo</p>
+                                    <p className="member__sub-text">Game Developer</p>
                                 </div>
                                 <div className="page__team-member is__centered">
                                     <figure>
                                         <img src={images.dan} alt="Dan" />
                                     </figure>
-                                    <p className="member__text">Ddan thees</p>
-                                    <p className="member__sub-text">???</p>
+                                    <p className="member__text">Mike Joestar</p>
+                                    <p className="member__sub-text">Developer</p>
                                 </div>
                                 
                             </div>
