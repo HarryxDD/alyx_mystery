@@ -177,7 +177,7 @@ This is an example of how to list things you need to use the software and how to
 
 <!--      [![Alyx Mystery][product-screenshot1]](http://alyx-mystery.byethost14.com/) -->
      
-    - [x] Build the offline beta version of the game
+<!--     - [x] Build the offline beta version of the game -->
 
 <!--          [![Alyx Mystery][product-screenshot2]](http://alyx-mystery.byethost14.com/) -->
          
