@@ -18,8 +18,8 @@ const Overview = () => {
                     <h3>CURRENT PRICE</h3>
 
                     <div className='action__block'>
-                        <p className='alx__price'>59.00 ALX</p>
-                        <p className='usd__price'>420.69 USD</p>
+                        <p className='alx__price'>135.45 ALX</p>
+                        <p className='usd__price'>394.16 USD</p>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ const Overview = () => {
                     </h4>
                     
                     <p className='user__stat'>
-                        100/200
+                        10/200
                     </p>
                 </div>
 
