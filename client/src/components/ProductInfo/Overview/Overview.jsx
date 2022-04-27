@@ -38,7 +38,7 @@ const Overview = () => {
                         <h4>Add To Cart</h4>
                     </button></a>
                     
-                    <a href='https://www.youtube.com/shorts/qBrxJ5RuO-4' target='_blank'><button className='buy__now'>
+                    <a href='https://www.paypal.me/mikejoester' target='_blank'><button className='buy__now'>
                         <h4>Buy Now</h4>
                     </button></a>
                 </div>
