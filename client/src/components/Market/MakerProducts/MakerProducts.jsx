@@ -1,6 +1,7 @@
 import React from 'react'
 import './MakerProducts.css'
 import { BsChevronDown } from "react-icons/bs/"
+import images from '../../../constants/images';
 
 const MakerProducts = () => {
   return (
@@ -124,13 +125,13 @@ const MakerProducts = () => {
                   <div className="products__card-hover rare"></div>
                   <div className="card__top">
                     <figure>
-                      <img className="card__preview" src="https://www.pokencyclopedia.info/sprites/gen5/ani_black-white/ani_bw_383.gif" alt="preview" />
+                      <img className="card__preview" src={images.lizardon} alt="preview" />
                     </figure>
                     </div>
                   <div className="card__bottom">
                       <div className="card__bottom-tittle">
                         <p className="card__name"> 
-                          Groudon Gen V Legendary
+                          Charizard Megax
                         </p>
                       </div>
                       <div className="card__bottom-data">
@@ -482,7 +483,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 172 / 200</span>
+                            <span className="supply__count-text"> 05 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -491,9 +492,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 15.45 </span>
+                              <span className="price__number"> 900.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 45.26</p>
+                                <p className="price__number-usd"> 2745.26</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -523,7 +524,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 180 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -532,9 +533,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 12.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 36.16</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
