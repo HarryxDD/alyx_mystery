@@ -63,9 +63,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 13.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 39.16</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -95,7 +95,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 12 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -104,9 +104,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 35.4 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 94.6</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -136,7 +136,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 10 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -177,7 +177,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 04 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -186,9 +186,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 356.75 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 994.23</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -225,7 +225,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 02 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -234,9 +234,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 535.15 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 1594.16</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -266,7 +266,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 30 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -275,9 +275,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 65.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 184.16</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -307,7 +307,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 100 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -316,9 +316,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 5.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 14.75 </p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -348,7 +348,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 40 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -357,9 +357,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 75.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 274.16</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -400,7 +400,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 5 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -409,9 +409,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 1005.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 3094.126</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -441,7 +441,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 07 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -450,9 +450,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 345.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 982.12</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
@@ -482,7 +482,7 @@ const MakerProducts = () => {
                       <div className="card__bottom-data">
                         <div>
                           <p className="supply__count">
-                            <span className="supply__count-text"> 20 / 200</span>
+                            <span className="supply__count-text"> 172 / 200</span>
                           </p>
                         </div>
                         <div className="card__price mt-2">
@@ -491,9 +491,9 @@ const MakerProducts = () => {
                               <img src="https://www.sandbox.game/img/17_Sand/sand-icon.svg" alt="coin-icon" />
                             </div>
                             <div>
-                              <span className="price__number"> 135.45 </span>
+                              <span className="price__number"> 15.45 </span>
                               <div className="price__number-money">
-                                <p className="price__number-usd"> 394.16</p>
+                                <p className="price__number-usd"> 45.26</p>
                                 <p className="price__usd">USD</p>
                               </div>
                             </div>
