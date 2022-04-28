@@ -10,7 +10,7 @@ const AboutAlyxHeader = () => {
                 <h4 className="info__sub-title">ALYX is the utility token used throughout The 
                 Alyxbox ecosystem as the basis for transactions and interactions. It is an ERC-20 
                 utility token built on the Ethereum blockchain. 
-                There is a finite supply of 3,000,000,000 SAND.</h4>
+                There is a finite supply of 3,000,000,000 ALYX.</h4>
                 <div className="btn__container">
                     <button type="button" className="btn__buy btn"> Buy Alyx </button>
                     <button type="button" className="btn__stake btn"> Stake Alyx </button>

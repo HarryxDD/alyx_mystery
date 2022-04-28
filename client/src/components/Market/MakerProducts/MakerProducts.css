@@ -373,8 +373,46 @@ hr.horizontal__light {
     -webkit-mask: url(https://www.sandbox.game/img/16_Presale/shopping-cart.svg) no-repeat center;
 }
 
-@media screen and (min-width: 2000px) {}
+@media screen and (min-width: 2000px) {
 
-@media screen and (max-width: 1280px) {}
+}
 
-@media screen and (max-width: 650px) {}
+@media screen and (max-width: 1280px) {
+    .sandbox>ul .link__items .background-rotate{
+        height: 120px;
+        top: -40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text__mg-left{
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .sandbox>ul .link__items .background-rotate{
+        height: 100px;
+    }
+
+    .sandbox>ul .link__items .home__wrapper figure{
+        top: 2px;
+        right: -40px;
+    }
+
+    .sandbox>ul .home__wrapper figure img{
+        width: 160px;
+    }
+
+    .link__items .icon-card img{
+        max-width: 75%;
+    }
+
+    .home__wrapper-info .text__info{
+        font-size: 0.8rem;
+    }
+
+    .home__wrapper-info .text__info-decs{
+        font-size: 0.6rem;
+    }
+}

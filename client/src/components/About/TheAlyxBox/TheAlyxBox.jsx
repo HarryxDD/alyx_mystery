@@ -57,7 +57,7 @@ const TheAlyxBox = () => {
                     </ul>
                 </section>
                 <section className="home__section-container about mg__left">
-                    <h4 class="home__section-container_text"> Learn About Our Products</h4>
+                    <h4 class="home__section-container_text text__mg-left"> Learn About Our Products</h4>
                     <ul className="product-link">
                         <li className="link__items">
                             <div className="link-items_land">
