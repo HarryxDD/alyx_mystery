@@ -11,9 +11,9 @@ const NewsBlog = () => {
                 <div className='article__share'>
                     <p>SHARE</p>
                     <div>
-                        <a><img src={images.telegram_clear}/></a>
-                        <a><img src={images.twitter_clear}/></a>
-                        <a><img src={images.facebook_clear}/></a>
+                        <a><img src="https://www.sandbox.game/img/Icons/telegram.svg"/></a>
+                        <a><img src="https://www.sandbox.game/img/Icons/twitter.svg"/></a>
+                        <a><img src="https://www.sandbox.game/img/Icons/facebook.svg"/></a>
                     </div>
                 </div>
 
@@ -116,9 +116,9 @@ His semen was so thick, it got stuck inside my throat no matter how hard I swall
                                             <hr className='line'/>
 
                                             <div className='social__links'>
-                                                <a><img src={images.telegram_clear}/></a>
-                                                <a><img src={images.twitter_clear}/></a>
-                                                <a><img src={images.facebook_clear}/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/telegram.svg"/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/twitter.svg"/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/facebook.svg"/></a>
                                             </div>
                                         </div>
                                     </div>
@@ -137,9 +137,9 @@ His semen was so thick, it got stuck inside my throat no matter how hard I swall
                                             <hr className='line'/>
 
                                             <div className='social__links'>
-                                                <a><img src={images.telegram_clear}/></a>
-                                                <a><img src={images.twitter_clear}/></a>
-                                                <a><img src={images.facebook_clear}/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/telegram.svg"/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/twitter.svg"/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/facebook.svg"/></a>
                                             </div>
                                         </div>
                                     </div>
@@ -158,9 +158,9 @@ His semen was so thick, it got stuck inside my throat no matter how hard I swall
                                             <hr className='line'/>
 
                                             <div className='social__links'>
-                                                <a><img src={images.telegram_clear}/></a>
-                                                <a><img src={images.twitter_clear}/></a>
-                                                <a><img src={images.facebook_clear}/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/telegram.svg"/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/twitter.svg"/></a>
+                                                <a><img src="https://www.sandbox.game/img/Icons/facebook.svg"/></a>
                                             </div>
                                         </div>
                                     </div>
@@ -173,7 +173,7 @@ His semen was so thick, it got stuck inside my throat no matter how hard I swall
                 <div className='article__right'>
                     
                         <div className='article__newsletter'>
-                            <div className='article__email'><img src={images.email}/></div>
+                            <div className='article__email'><img src="https://www.sandbox.game/img/Icons/envelope-regular.png"/></div>
 
                             <p className="newsletter__title">Newsletter</p>
 
