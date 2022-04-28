@@ -56,6 +56,25 @@
     box-shadow: inset 200px 0 0 0 var(--color-main);
 }
 
+.gamepage_mobile-warning {
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    display: none;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .app__gamepage-content button {
+        display: none;
+    }
+
+    .gamepage_mobile-warning {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .app__gamepage-content h1 {
         font-size: 40px;

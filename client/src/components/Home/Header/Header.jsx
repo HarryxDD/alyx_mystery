@@ -3,7 +3,25 @@ import images from '../../../constants/images'
 
 import './Header.css'
 
+
+async function getAccount() {
+  const accounts = await window.ethereum.request({
+    method: "eth_requestAccounts",
+  });
+  const account = accounts[0]
+  return account
+}
+
 const Header = () => {
+
+  const connectButtonOnClick = () => {
+    if (typeof window !== "undefined") {
+      getAccount().then((res) => {
+        console.log(res);
+      })
+    }
+  }
+
   return (
     <div className='app__header'>
         <div className='app__header-info'>
@@ -22,7 +40,7 @@ const Header = () => {
                 <button className='info__button-claim'>
                   Claim
                 </button>
-                <button className='info__button-buy'>
+                <button className='info__button-buy' onClick={connectButtonOnClick}>
                   Buy Alyx
                 </button>
               </div>

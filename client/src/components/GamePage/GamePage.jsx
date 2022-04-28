@@ -20,6 +20,7 @@ const GamePage = () => {
               </button>
             </a>
 
+            <h4 className='gamepage_mobile-warning'>Not available on mobile devices</h4>
             
         </div>
     </div>
